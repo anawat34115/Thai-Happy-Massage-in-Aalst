@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thai Happy Massage in Aalst | Premium Wellness & Spa</title>
+  <meta name="description" content="Ontdek de ultieme ontspanning bij Thai Happy Massage in Aalst. Ervaar traditionele Thaise massages, aromatherapie met warme olie, hot stones en kruidenstempeltherapieën door gecertificeerde therapeuten.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Sectie -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <h1>THAI HAPPY MASSAGE</h1>
+        <span>Aalst Wellness & Spa</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">Over Ons</a></li>
+          <li><a href="#services" class="nav-link">Onze Menu's</a></li>
+          <li><a href="#gallery" class="nav-link">Galerij</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><button class="btn btn-gold open-booking-btn" style="padding: 0.65rem 1.5rem; font-size: 0.75rem;">Nu Boeken</button></li>
+        </ul>
+      </nav>
+
+      <!-- Mobiele Menu Toggle Knop -->
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Sectie -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-tagline">Welkom bij Thai Happy Massage</span>
+      <h2 class="hero-title">Ervaar de Heilzame Kracht van Thaise Massage</h2>
+      <p class="hero-desc">Verwen uzelf met onze premium therapiesessies in het hart van Aalst. Laat onze gecertificeerde therapeuten uw lichaam, geest en ziel herstellen in een rustige, ontspannen sfeer.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary open-booking-btn">Afspraak Maken</button>
+        <a href="#services" class="btn btn-outline" style="color: #ffffff; border-color: #ffffff;">Bekijk Menu's</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+      scroll naar beneden
+      <span></span>
+    </div>
+  </section>
+
+  <!-- Over Ons Sectie -->
+  <section class="section container" id="about">
+    <div class="about-grid">
+      <div class="about-content">
+        <span class="section-subtitle">Onze Filosofie</span>
+        <h3>Traditionele Massage Handgemaakt voor Uw Welzijn</h3>
+        <p>Bij <strong>Thai Happy Massage</strong> brengen we de eeuwenoude geneeskunst van Thailand naar Aalst. Onze filosofie is gericht op het herstellen van de biologische balans, het verlichten van stress en het verminderen van spierspanning met behulp van traditionele technieken die in de loop van duizenden jaren zijn ontwikkeld.</p>
+        <p>Elke therapeut in onze spa is volledig gecertificeerd, hoog opgeleid en toegewijd om elke sessie aan te passen aan uw persoonlijke lichaamsbehoeften. We gebruiken alleen biologische oliën en premium natuurlijke kruidenstempels om een gezonde, voedende ervaring te garanderen.</p>
+        
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <!-- Certified Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="highlight-title">Gecertificeerde Therapeuten</h4>
+              <p class="highlight-desc">Alle behandelingen worden uitgevoerd door gekwalificeerde therapeuten.</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <!-- Natural Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17 8C14.24 8 12.06 9.88 11.39 12.44 11.14 12.16 10.83 11.93 10.47 11.78l-5.5-2.2c-.3-.12-.64-.13-.94-.03-.83.27-1.3 1.17-1.03 2l2.2 5.5c.15.36.38.67.66.92.51.46 1.17.65 1.83.53C9.07 18.06 10.3 17 11 15.58c.7 1.42 1.93 2.48 3.29 2.92.34.11.69.16 1.04.16.89 0 1.74-.38 2.32-1.07 1.25-1.5 1.43-3.61.56-5.26-.14-.26-.31-.51-.51-.74.19-.79.02-1.63-.49-2.31-.2-.27-.47-.5-.77-.68z"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="highlight-title">Biologische & Natuurlijke Oliën</h4>
+              <p class="highlight-desc">We gebruiken uitsluitend hoogwaardige, natuurlijke oliën en kruiden.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-image-wrapper">
+        <img src="assets/thai_massage.png" alt="Traditionele Thaise Massage sessie" class="about-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Tarieven & Diensten (Many Menus) -->
+  <section class="section" id="services" style="background-color: #ffffff;">
+    <div class="container">
+      <span class="section-subtitle">Tarieven & Diensten</span>
+      <h2 class="section-title">Onze Premium Menu's</h2>
+      
+      <!-- Categorie Filter -->
+      <div class="services-tabs">
+        <button class="tab-btn active" onclick="filterServices('all')">Alle Menu's</button>
+        <button class="tab-btn" onclick="filterServices('thai')">Thais & Stretching</button>
+        <button class="tab-btn" onclick="filterServices('aroma')">Aroma & Olie</button>
+        <button class="tab-btn" onclick="filterServices('special')">Speciale Therapie</button>
+      </div>
+
+      <div class="services-grid" id="services-grid">
+        
+        <!-- Menu 1: Traditional Thai Massage -->
+        <div class="service-card" data-category="thai">
+          <div class="service-img-container">
+            <img src="assets/thai_massage.png" alt="Traditionele Thaise Massage" class="service-card-img">
+            <span class="service-price-tag">Vanaf €50</span>
+          </div>
+          <div class="service-card-content">
+            <div class="service-card-header">
+              <h4>Traditionele Thaise Massage</h4>
+              <span class="service-duration">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                60 / 90 / 120m
+              </span>
+            </div>
+            <p class="service-card-desc">Een eeuwenoude massage voor het hele lichaam die gebruikmaakt van diepe druk, ritmische drukpunten en yoga-achtige rektechnieken om energiebanen vrij te maken en spanning los te laten.</p>
+            <div class="service-card-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">60m: €50 | 90m: €70</span>
+              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Traditionele Thaise Massage">Boeken</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu 2: Aromatherapy Hot Oil Massage -->
+        <div class="service-card" data-category="aroma">
+          <div class="service-img-container">
+            <img src="assets/oil_massage.png" alt="Aromatherapie Warme Olie Massage" class="service-card-img">
+            <span class="service-price-tag">Vanaf €60</span>
+          </div>
+          <div class="service-card-content">
+            <div class="service-card-header">
+              <h4>Aromatherapie Warme Olie</h4>
+              <span class="service-duration">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                60 / 90 / 120m
+              </span>
+            </div>
+            <p class="service-card-desc">Een heerlijk ontspannende massage met warme biologische oliën en geurende bloemenessences om stress weg te nemen, slaap te verbeteren en uw huid intensief te voeden.</p>
+            <div class="service-card-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">60m: €60 | 90m: €80</span>
+              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Aromatherapie Warme Olie">Boeken</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu 3: Hot Stone Therapy -->
+        <div class="service-card" data-category="special">
+          <div class="service-img-container">
+            <img src="assets/hot_stone.png" alt="Hot Stone Therapie" class="service-card-img">
+            <span class="service-price-tag">Vanaf €85</span>
+          </div>
+          <div class="service-card-content">
+            <div class="service-card-header">
+              <h4>Hot Stone Therapie</h4>
+              <span class="service-duration">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                90 / 120m
+              </span>
+            </div>
+            <p class="service-card-desc">Gladde, verwarmde basalt-vulkanische stenen worden op sleutelpunten geplaatst. De diepe warmte dringt door in de spieren om hardnekkige stijfheid volledig te verzachten.</p>
+            <div class="service-card-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">90m: €85 | 120m: €110</span>
+              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Hot Stone Therapie">Boeken</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu 4: Thai Herbal Compress Massage -->
+        <div class="service-card" data-category="special">
+          <div class="service-img-container">
+            <img src="assets/hero_spa.png" alt="Thaise Kruidenstempel Massage" class="service-card-img">
+            <span class="service-price-tag">Vanaf €75</span>
+          </div>
+          <div class="service-card-content">
+            <div class="service-card-header">
+              <h4>Thaise Kruidenstempel</h4>
+              <span class="service-duration">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                90 / 120m
+              </span>
+            </div>
+            <p class="service-card-desc">Verwarmde bundels met authentieke Thaise kruiden (citroengras, kaffirlimoen, kurkuma) worden op de spieren gedrukt. Uitstekend voor spierherstel en ontgifting.</p>
+            <div class="service-card-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">90m: €75 | 120m: €95</span>
+              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Thaise Kruidenstempel">Boeken</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu 5: Anti-Stress Back, Neck & Shoulders -->
+        <div class="service-card" data-category="thai">
+          <div class="service-img-container">
+            <img src="assets/thai_massage.png" alt="Rug Nek en Schouders Massage" class="service-card-img">
+            <span class="service-price-tag">Vanaf €30</span>
+          </div>
+          <div class="service-card-content">
+            <div class="service-card-header">
+              <h4>Rug, Nek & Schouders</h4>
+              <span class="service-duration">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                30 / 60m
+              </span>
+            </div>
+            <p class="service-card-desc">Een gerichte, intensieve behandeling om knopen en spierspanningen in de bovenrug, schouders en nek te verlichten, ideaal voor mensen met een kantoorbaan.</p>
+            <div class="service-card-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">30m: €30 | 60m: €50</span>
+              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Rug, Nek & Schouders">Boeken</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu 6: Deep Tissue Therapy -->
+        <div class="service-card" data-category="special">
+          <div class="service-img-container">
+            <img src="assets/oil_massage.png" alt="Deep Tissue Massage" class="service-card-img">
+            <span class="service-price-tag">Vanaf €65</span>
+          </div>
+          <div class="service-card-content">
+            <div class="service-card-header">
+              <h4>Deep Tissue Therapie</h4>
+              <span class="service-duration">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                60 / 90m
+              </span>
+            </div>
+            <p class="service-card-desc">Stevige druktechnieken ontworpen om diep door te dringen in spiervezels en bindweefsel, gericht op het verminderen van chronische pijn en stijfheid.</p>
+            <div class="service-card-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">60m: €65 | 90m: €85</span>
+              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Deep Tissue Therapie">Boeken</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu 7: Foot Reflexology -->
+        <div class="service-card" data-category="thai">
+          <div class="service-img-container">
+            <img src="assets/hot_stone.png" alt="Voetreflexologie" class="service-card-img">
+            <span class="service-price-tag">€45</span>
+          </div>
+          <div class="service-card-content">
+            <div class="service-card-header">
+              <h4>Voetreflexologie</h4>
+              <span class="service-duration">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                60m
+              </span>
+            </div>
+            <p class="service-card-desc">Massage gericht op reflexpunten op uw voetzolen om organen te stimuleren, vermoeide en zware benen te verlichten en uw algehele energiebalans te verbeteren.</p>
+            <div class="service-card-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">60m: €45</span>
+              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Voetreflexologie">Boeken</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu 8: Couple Royal Package -->
+        <div class="service-card" data-category="special">
+          <div class="service-img-container">
+            <img src="assets/hero_spa.png" alt="Couple Massage Pakket" class="service-card-img">
+            <span class="service-price-tag">€170</span>
+          </div>
+          <div class="service-card-content">
+            <div class="service-card-header">
+              <h4>Couple Royal Pakket</h4>
+              <span class="service-duration">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                120m
+              </span>
+            </div>
+            <p class="service-card-desc">Een luxe side-by-side ervaring in onze suite voor koppels. Geniet samen van een massage met warme aromatherapie-olie, gezichtsontspanning en een zachte voetmassage.</p>
+            <div class="service-card-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">120m: €170 (2 personen)</span>
+              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Couple Royal Pakket">Boeken</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Galerij Sectie -->
+  <section class="section container" id="gallery">
+    <span class="section-subtitle">Visuele Ervaring</span>
+    <h2 class="section-title">Spa Galerij</h2>
+    
+    <div class="gallery-grid">
+      <div class="gallery-item" onclick="openLightbox('assets/hero_spa.png')">
+        <img src="assets/hero_spa.png" alt="Spa sfeerbeeld">
+        <div class="gallery-overlay">
+          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('assets/thai_massage.png')">
+        <img src="assets/thai_massage.png" alt="Thaise massagetechniek">
+        <div class="gallery-overlay">
+          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('assets/oil_massage.png')">
+        <img src="assets/oil_massage.png" alt="Aromatherapie etherische oliën">
+        <div class="gallery-overlay">
+          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('assets/hot_stone.png')">
+        <img src="assets/hot_stone.png" alt="Ontspannende hot stone massage">
+        <div class="gallery-overlay">
+          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beoordelingen Sectie -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="section-subtitle" style="color: var(--secondary-color);">Ervaringen van Gasten</span>
+      <h2 class="section-title">Klantbeoordelingen</h2>
+
+      <div class="slider-container">
+        <button class="slider-btn slider-btn-prev" onclick="prevSlide()" aria-label="Vorige Review">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+        </button>
+        
+        <div class="testimonials-slider">
+          <!-- Slide 1 -->
+          <div class="testimonial-slide active">
+            <span class="quote-icon">“</span>
+            <p class="testimonial-text">Absoluut de beste traditionele Thaise massage die ik in België heb gehad. De gecertificeerde therapeute vond precies waar de spanning zat en heeft deze verlicht. Zeer aanbevolen!</p>
+            <div class="rating-stars">
+              <!-- 5 Sterren -->
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <div class="author-name">Sarah Peeters</div>
+            <div class="author-title">Lokale Gids uit Aalst</div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <span class="quote-icon">“</span>
+            <p class="testimonial-text">De warme olie aromatherapie is hemels. De sfeer is zeer luxueus, kalm en ruikt heerlijk naar jasmijn en citroengras. Ik kom volgende week zeker terug.</p>
+            <div class="rating-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <div class="author-name">Dieter De Smet</div>
+            <div class="author-title">Inwoner van Aalst</div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <span class="quote-icon">“</span>
+            <p class="testimonial-text">Mijn partner en ik boekten het Couple Royal Pakket. Het was 2 uur pure zaligheid. Professioneel, schoon en uiterst ontspannend. Een echte aanrader voor iedereen!</p>
+            <div class="rating-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <div class="author-name">Annelies Verstraete</div>
+            <div class="author-title">Klant</div>
+          </div>
+        </div>
+
+        <button class="slider-btn slider-btn-next" onclick="nextSlide()" aria-label="Volgende Review">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg>
+        </button>
+      </div>
+
+      <div class="slider-dots" id="slider-dots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Sectie (Geen Google Map) -->
+  <section class="section container" id="contact">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <span class="section-subtitle">Bereik Ons</span>
+        <h3>Neem Contact Op</h3>
+        <p class="contact-info-desc">Wilt u een afspraak boeken of een vraag stellen? Neem contact met ons op via telefoon, e-mail of door het boekingsformulier in te vullen. We kijken ernaar uit u te verwelkomen.</p>
+        
+        <div class="info-cards">
+          <!-- Locatie Kaart -->
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div class="info-card-details">
+              <h4>Locatie & Adres</h4>
+              <p>Geraardsbergsestraat 45,<br>9300 Aalst, België</p>
+            </div>
+          </div>
+
+          <!-- Telefoon Kaart -->
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div class="info-card-details">
+              <h4>Telefoonnummer</h4>
+              <p>+32 (0) 489 123 456<br>+32 (0) 53 789 012</p>
+            </div>
+          </div>
+
+          <!-- Openingstijden Kaart -->
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            </div>
+            <div class="info-card-details">
+              <h4>Openingstijden</h4>
+              <p>Maandag - Zaterdag: 10:00 - 20:00<br>Zondag: Alleen op afspraak</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-container">
+        <form class="contact-form" id="direct-contact-form" onsubmit="handleContactSubmit(event)">
+          <h3>Stuur een Bericht</h3>
+          <div class="form-group">
+            <label for="c-name">Volledige Naam</label>
+            <input type="text" id="c-name" class="form-input" placeholder="Uw Naam" required>
+          </div>
+          <div class="form-group">
+            <label for="c-email">E-mailadres</label>
+            <input type="email" id="c-email" class="form-input" placeholder="naam@domein.com" required>
+          </div>
+          <div class="form-group">
+            <label for="c-message">Hoe kunnen we u helpen?</label>
+            <textarea id="c-message" class="form-input" placeholder="Vertel ons waar u naar op zoek bent..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Bericht Verzenden</button>
+        </form>
+        <div class="success-msg" id="contact-success">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          <h4>Bedankt!</h4>
+          <p>Uw bericht is succesvol verzonden. We nemen zo snel mogelijk contact met u op.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boekings Modal -->
+  <div class="modal" id="booking-modal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Sluit modal">
+        <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      </button>
+
+      <div id="booking-form-wrapper">
+        <div class="modal-header">
+          <h3>Boekingsaanvraag</h3>
+          <p>Vul dit formulier in om een massagebehandeling aan te vragen. We bevestigen uw afspraak via telefoon of e-mail.</p>
+        </div>
+
+        <form class="modal-form" id="booking-form" onsubmit="handleBookingSubmit(event)">
+          <div class="form-group">
+            <label for="b-name">Uw Volledige Naam</label>
+            <input type="text" id="b-name" class="form-input" placeholder="Sarah Peeters" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="b-phone">Telefoonnummer</label>
+              <input type="tel" id="b-phone" class="form-input" placeholder="+32 489 12 34 56" required>
+            </div>
+            <div class="form-group">
+              <label for="b-email">E-mailadres</label>
+              <input type="email" id="b-email" class="form-input" placeholder="sarah@domein.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="b-service">Behandeling</label>
+              <select id="b-service" class="form-input" required style="appearance: none; -webkit-appearance: none;">
+                <option value="" disabled selected>Selecteer een dienst</option>
+                <option value="Traditionele Thaise Massage">Traditionele Thaise Massage</option>
+                <option value="Aromatherapie Warme Olie">Aromatherapie Warme Olie</option>
+                <option value="Hot Stone Therapie">Hot Stone Therapie</option>
+                <option value="Thaise Kruidenstempel">Thaise Kruidenstempel</option>
+                <option value="Rug, Nek & Schouders">Rug, Nek & Schouders</option>
+                <option value="Deep Tissue Therapie">Deep Tissue Therapie</option>
+                <option value="Voetreflexologie">Voetreflexologie</option>
+                <option value="Couple Royal Pakket">Couple Royal Pakket</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="b-duration">Duur</label>
+              <select id="b-duration" class="form-input" required style="appearance: none; -webkit-appearance: none;">
+                <option value="" disabled selected>Selecteer de duur</option>
+                <option value="30 minuten">30 Minuten</option>
+                <option value="60 minuten">60 Minuten</option>
+                <option value="90 minuten">90 Minuten</option>
+                <option value="120 minuten">120 Minuten</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="b-date">Gewenste Datum</label>
+              <input type="date" id="b-date" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label for="b-time">Gewenst Tijdstip</label>
+              <input type="time" id="b-time" class="form-input" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="b-notes">Speciale Opmerkingen / Wensen</label>
+            <textarea id="b-notes" class="form-input" placeholder="Bijv. kamerkeuze, specifieke pijnpunten, allergieën..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold" style="width: 100%; margin-top: 1rem;">Boekingsaanvraag Verzenden</button>
+        </form>
+      </div>
+
+      <!-- Boeking succes bericht -->
+      <div class="success-msg" id="booking-success">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        <h4>Boekingsaanvraag Verzonden!</h4>
+        <p>Bedankt voor uw boeking. We hebben uw aanvraag ontvangen en nemen snel contact met u op om uw afspraak te bevestigen.</p>
+        <button class="btn btn-primary" onclick="closeModal()" style="margin-top: 2rem; padding: 0.75rem 2rem;">Sluiten</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox voor Galerij Zoom -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Sluit grote weergave">
+      <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+    </button>
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <img src="" alt="Grote weergave" class="lightbox-img" id="lightbox-img">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <a href="#home" class="logo">
+            <h1 style="color: var(--secondary-color);">THAI HAPPY MASSAGE</h1>
+            <span>Aalst Wellness & Spa</span>
+          </a>
+          <p>Brengt authentieke Thaise helende therapieën en wellnesspraktijken naar Aalst. Voel u ontspannen, verjongd en gelukkig.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigatie</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Over Ons</a></li>
+            <li><a href="#services">Onze Menu's</a></li>
+            <li><a href="#gallery">Spa Galerij</a></li>
+            <li><a href="#testimonials">Guest Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-hours">
+          <h4>Openingstijden</h4>
+          <p>Maandag <span>10:00 - 20:00</span></p>
+          <p>Dinsdag <span>10:00 - 20:00</span></p>
+          <p>Woensdag <span>10:00 - 20:00</span></p>
+          <p>Donderdag <span>10:00 - 20:00</span></p>
+          <p>Vrijdag <span>10:00 - 20:00</span></p>
+          <p>Zaterdag <span>10:00 - 20:00</span></p>
+          <p>Zondag <span>Alleen op afspraak</span></p>
+        </div>
+
+        <div class="footer-col footer-newsletter">
+          <h4>Nieuwsbrief</h4>
+          <p>Meld u aan om nieuws, speciale seizoensaanbiedingen en wellnesstips te ontvangen.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Bedankt voor uw aanmelding!'); this.reset();">
+            <input type="email" class="newsletter-input" placeholder="Uw e-mailadres" required aria-label="E-mailadres">
+            <button type="submit" class="newsletter-btn" aria-label="Subscribe">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Thai Happy Massage in Aalst. Alle rechten voorbehouden.</p>
+        <p>Premium Wellness & Spa Ervaring</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
