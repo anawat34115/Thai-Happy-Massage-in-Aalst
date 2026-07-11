@@ -1,634 +1,569 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html class="scroll-smooth" lang="nl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thai Happy Massage in Aalst | Premium Wellness & Spa</title>
-  <meta name="description" content="Ontdek de ultieme ontspanning bij Thai Happy Massage in Aalst. Ervaar traditionele Thaise massages, aromatherapie met warme olie, hot stones en kruidenstempeltherapieën door gecertificeerde therapeuten.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- Header Sectie -->
-  <header class="header" id="header">
-    <div class="container nav-container">
-      <a href="#home" class="logo">
-        <h1>THAI HAPPY MASSAGE</h1>
-        <span>Aalst Wellness & Spa</span>
-      </a>
-
-      <!-- Desktop Nav Links -->
-      <nav>
-        <ul class="nav-links" id="nav-links">
-          <li><a href="#home" class="nav-link active">Home</a></li>
-          <li><a href="#about" class="nav-link">Over Ons</a></li>
-          <li><a href="#services" class="nav-link">Onze Menu's</a></li>
-          <li><a href="#gallery" class="nav-link">Galerij</a></li>
-          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-          <li><button class="btn btn-gold open-booking-btn" style="padding: 0.65rem 1.5rem; font-size: 0.75rem;">Nu Boeken</button></li>
-        </ul>
-      </nav>
-
-      <!-- Mobiele Menu Toggle Knop -->
-      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
-
-  <!-- Hero Sectie -->
-  <section class="hero" id="home">
-    <div class="hero-bg"></div>
-    <div class="hero-content">
-      <span class="hero-tagline">Welkom bij Thai Happy Massage</span>
-      <h2 class="hero-title">Ervaar de Heilzame Kracht van Thaise Massage</h2>
-      <p class="hero-desc">Verwen uzelf met onze premium therapiesessies in het hart van Aalst. Laat onze gecertificeerde therapeuten uw lichaam, geest en ziel herstellen in een rustige, ontspannen sfeer.</p>
-      <div class="hero-actions">
-        <button class="btn btn-primary open-booking-btn">Afspraak Maken</button>
-        <a href="#services" class="btn btn-outline" style="color: #ffffff; border-color: #ffffff;">Bekijk Menu's</a>
-      </div>
-    </div>
-    <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
-      scroll naar beneden
-      <span></span>
-    </div>
-  </section>
-
-  <!-- Over Ons Sectie -->
-  <section class="section container" id="about">
-    <div class="about-grid">
-      <div class="about-content">
-        <span class="section-subtitle">Onze Filosofie</span>
-        <h3>Traditionele Massage Handgemaakt voor Uw Welzijn</h3>
-        <p>Bij <strong>Thai Happy Massage</strong> brengen we de eeuwenoude geneeskunst van Thailand naar Aalst. Onze filosofie is gericht op het herstellen van de biologische balans, het verlichten van stress en het verminderen van spierspanning met behulp van traditionele technieken die in de loop van duizenden jaren zijn ontwikkeld.</p>
-        <p>Elke therapeut in onze spa is volledig gecertificeerd, hoog opgeleid en toegewijd om elke sessie aan te passen aan uw persoonlijke lichaamsbehoeften. We gebruiken alleen biologische oliën en premium natuurlijke kruidenstempels om een gezonde, voedende ervaring te garanderen.</p>
-        
-        <div class="about-highlights">
-          <div class="highlight-item">
-            <div class="highlight-icon">
-              <!-- Certified Icon -->
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-              </svg>
-            </div>
-            <div>
-              <h4 class="highlight-title">Gecertificeerde Therapeuten</h4>
-              <p class="highlight-desc">Alle behandelingen worden uitgevoerd door gekwalificeerde therapeuten.</p>
-            </div>
-          </div>
-          <div class="highlight-item">
-            <div class="highlight-icon">
-              <!-- Natural Icon -->
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M17 8C14.24 8 12.06 9.88 11.39 12.44 11.14 12.16 10.83 11.93 10.47 11.78l-5.5-2.2c-.3-.12-.64-.13-.94-.03-.83.27-1.3 1.17-1.03 2l2.2 5.5c.15.36.38.67.66.92.51.46 1.17.65 1.83.53C9.07 18.06 10.3 17 11 15.58c.7 1.42 1.93 2.48 3.29 2.92.34.11.69.16 1.04.16.89 0 1.74-.38 2.32-1.07 1.25-1.5 1.43-3.61.56-5.26-.14-.26-.31-.51-.51-.74.19-.79.02-1.63-.49-2.31-.2-.27-.47-.5-.77-.68z"/>
-              </svg>
-            </div>
-            <div>
-              <h4 class="highlight-title">Biologische & Natuurlijke Oliën</h4>
-              <p class="highlight-desc">We gebruiken uitsluitend hoogwaardige, natuurlijke oliën en kruiden.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="about-image-wrapper">
-        <img src="assets/thai_massage.png" alt="Traditionele Thaise Massage sessie" class="about-img">
-      </div>
-    </div>
-  </section>
-
-  <!-- Tarieven & Diensten (Many Menus) -->
-  <section class="section" id="services" style="background-color: #ffffff;">
-    <div class="container">
-      <span class="section-subtitle">Tarieven & Diensten</span>
-      <h2 class="section-title">Onze Premium Menu's</h2>
-      
-      <!-- Categorie Filter -->
-      <div class="services-tabs">
-        <button class="tab-btn active" onclick="filterServices('all')">Alle Menu's</button>
-        <button class="tab-btn" onclick="filterServices('thai')">Thais & Stretching</button>
-        <button class="tab-btn" onclick="filterServices('aroma')">Aroma & Olie</button>
-        <button class="tab-btn" onclick="filterServices('special')">Speciale Therapie</button>
-      </div>
-
-      <div class="services-grid" id="services-grid">
-        
-        <!-- Menu 1: Traditional Thai Massage -->
-        <div class="service-card" data-category="thai">
-          <div class="service-img-container">
-            <img src="assets/thai_massage.png" alt="Traditionele Thaise Massage" class="service-card-img">
-            <span class="service-price-tag">Vanaf €50</span>
-          </div>
-          <div class="service-card-content">
-            <div class="service-card-header">
-              <h4>Traditionele Thaise Massage</h4>
-              <span class="service-duration">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                60 / 90 / 120m
-              </span>
-            </div>
-            <p class="service-card-desc">Een eeuwenoude massage voor het hele lichaam die gebruikmaakt van diepe druk, ritmische drukpunten en yoga-achtige rektechnieken om energiebanen vrij te maken en spanning los te laten.</p>
-            <div class="service-card-footer">
-              <span style="font-size: 0.8rem; color: var(--text-muted);">60m: €50 | 90m: €70</span>
-              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Traditionele Thaise Massage">Boeken</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu 2: Aromatherapy Hot Oil Massage -->
-        <div class="service-card" data-category="aroma">
-          <div class="service-img-container">
-            <img src="assets/oil_massage.png" alt="Aromatherapie Warme Olie Massage" class="service-card-img">
-            <span class="service-price-tag">Vanaf €60</span>
-          </div>
-          <div class="service-card-content">
-            <div class="service-card-header">
-              <h4>Aromatherapie Warme Olie</h4>
-              <span class="service-duration">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                60 / 90 / 120m
-              </span>
-            </div>
-            <p class="service-card-desc">Een heerlijk ontspannende massage met warme biologische oliën en geurende bloemenessences om stress weg te nemen, slaap te verbeteren en uw huid intensief te voeden.</p>
-            <div class="service-card-footer">
-              <span style="font-size: 0.8rem; color: var(--text-muted);">60m: €60 | 90m: €80</span>
-              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Aromatherapie Warme Olie">Boeken</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu 3: Hot Stone Therapy -->
-        <div class="service-card" data-category="special">
-          <div class="service-img-container">
-            <img src="assets/hot_stone.png" alt="Hot Stone Therapie" class="service-card-img">
-            <span class="service-price-tag">Vanaf €85</span>
-          </div>
-          <div class="service-card-content">
-            <div class="service-card-header">
-              <h4>Hot Stone Therapie</h4>
-              <span class="service-duration">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                90 / 120m
-              </span>
-            </div>
-            <p class="service-card-desc">Gladde, verwarmde basalt-vulkanische stenen worden op sleutelpunten geplaatst. De diepe warmte dringt door in de spieren om hardnekkige stijfheid volledig te verzachten.</p>
-            <div class="service-card-footer">
-              <span style="font-size: 0.8rem; color: var(--text-muted);">90m: €85 | 120m: €110</span>
-              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Hot Stone Therapie">Boeken</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu 4: Thai Herbal Compress Massage -->
-        <div class="service-card" data-category="special">
-          <div class="service-img-container">
-            <img src="assets/hero_spa.png" alt="Thaise Kruidenstempel Massage" class="service-card-img">
-            <span class="service-price-tag">Vanaf €75</span>
-          </div>
-          <div class="service-card-content">
-            <div class="service-card-header">
-              <h4>Thaise Kruidenstempel</h4>
-              <span class="service-duration">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                90 / 120m
-              </span>
-            </div>
-            <p class="service-card-desc">Verwarmde bundels met authentieke Thaise kruiden (citroengras, kaffirlimoen, kurkuma) worden op de spieren gedrukt. Uitstekend voor spierherstel en ontgifting.</p>
-            <div class="service-card-footer">
-              <span style="font-size: 0.8rem; color: var(--text-muted);">90m: €75 | 120m: €95</span>
-              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Thaise Kruidenstempel">Boeken</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu 5: Anti-Stress Back, Neck & Shoulders -->
-        <div class="service-card" data-category="thai">
-          <div class="service-img-container">
-            <img src="assets/thai_massage.png" alt="Rug Nek en Schouders Massage" class="service-card-img">
-            <span class="service-price-tag">Vanaf €30</span>
-          </div>
-          <div class="service-card-content">
-            <div class="service-card-header">
-              <h4>Rug, Nek & Schouders</h4>
-              <span class="service-duration">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                30 / 60m
-              </span>
-            </div>
-            <p class="service-card-desc">Een gerichte, intensieve behandeling om knopen en spierspanningen in de bovenrug, schouders en nek te verlichten, ideaal voor mensen met een kantoorbaan.</p>
-            <div class="service-card-footer">
-              <span style="font-size: 0.8rem; color: var(--text-muted);">30m: €30 | 60m: €50</span>
-              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Rug, Nek & Schouders">Boeken</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu 6: Deep Tissue Therapy -->
-        <div class="service-card" data-category="special">
-          <div class="service-img-container">
-            <img src="assets/oil_massage.png" alt="Deep Tissue Massage" class="service-card-img">
-            <span class="service-price-tag">Vanaf €65</span>
-          </div>
-          <div class="service-card-content">
-            <div class="service-card-header">
-              <h4>Deep Tissue Therapie</h4>
-              <span class="service-duration">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                60 / 90m
-              </span>
-            </div>
-            <p class="service-card-desc">Stevige druktechnieken ontworpen om diep door te dringen in spiervezels en bindweefsel, gericht op het verminderen van chronische pijn en stijfheid.</p>
-            <div class="service-card-footer">
-              <span style="font-size: 0.8rem; color: var(--text-muted);">60m: €65 | 90m: €85</span>
-              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Deep Tissue Therapie">Boeken</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu 7: Foot Reflexology -->
-        <div class="service-card" data-category="thai">
-          <div class="service-img-container">
-            <img src="assets/hot_stone.png" alt="Voetreflexologie" class="service-card-img">
-            <span class="service-price-tag">€45</span>
-          </div>
-          <div class="service-card-content">
-            <div class="service-card-header">
-              <h4>Voetreflexologie</h4>
-              <span class="service-duration">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                60m
-              </span>
-            </div>
-            <p class="service-card-desc">Massage gericht op reflexpunten op uw voetzolen om organen te stimuleren, vermoeide en zware benen te verlichten en uw algehele energiebalans te verbeteren.</p>
-            <div class="service-card-footer">
-              <span style="font-size: 0.8rem; color: var(--text-muted);">60m: €45</span>
-              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Voetreflexologie">Boeken</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Menu 8: Couple Royal Package -->
-        <div class="service-card" data-category="special">
-          <div class="service-img-container">
-            <img src="assets/hero_spa.png" alt="Couple Massage Pakket" class="service-card-img">
-            <span class="service-price-tag">€170</span>
-          </div>
-          <div class="service-card-content">
-            <div class="service-card-header">
-              <h4>Couple Royal Pakket</h4>
-              <span class="service-duration">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                120m
-              </span>
-            </div>
-            <p class="service-card-desc">Een luxe side-by-side ervaring in onze suite voor koppels. Geniet samen van een massage met warme aromatherapie-olie, gezichtsontspanning en een zachte voetmassage.</p>
-            <div class="service-card-footer">
-              <span style="font-size: 0.8rem; color: var(--text-muted);">120m: €170 (2 personen)</span>
-              <a href="javascript:void(0)" class="service-book-link open-booking-btn" data-service="Couple Royal Pakket">Boeken</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Galerij Sectie -->
-  <section class="section container" id="gallery">
-    <span class="section-subtitle">Visuele Ervaring</span>
-    <h2 class="section-title">Spa Galerij</h2>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Thai Happy Massage | Verlicht Uw Pijn & Stress in Aalst</title>
+    <meta name="description"
+        content="Authentieke Thaise massage in Aalst bij Thai Happy Massage. Verlicht rugpijn, nekpijn en stress met professionele Thaise therapie. Boek vandaag nog!" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://thaihappymassage.be" />
     
-    <div class="gallery-grid">
-      <div class="gallery-item" onclick="openLightbox('assets/hero_spa.png')">
-        <img src="assets/hero_spa.png" alt="Spa sfeerbeeld">
-        <div class="gallery-overlay">
-          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-        </div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox('assets/thai_massage.png')">
-        <img src="assets/thai_massage.png" alt="Thaise massagetechniek">
-        <div class="gallery-overlay">
-          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-        </div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox('assets/oil_massage.png')">
-        <img src="assets/oil_massage.png" alt="Aromatherapie etherische oliën">
-        <div class="gallery-overlay">
-          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-        </div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox('assets/hot_stone.png')">
-        <img src="assets/hot_stone.png" alt="Ontspannende hot stone massage">
-        <div class="gallery-overlay">
-          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- Open Graph / SEO -->
+    <meta property="og:title" content="Thai Happy Massage | Verlicht Uw Pijn & Stress" />
+    <meta property="og:description" content="Authentieke Thaise massage in Aalst. Professionele therapie voor rugpijn, nekpijn en stressverlichting. Boek vandaag!" />
+    <meta property="og:type" content="business.business" />
+    <meta property="og:url" content="https://thaihappymassage.be" />
+    <meta property="og:image" content="https://thaihappymassage.be/og-image.jpg" />
+    <meta property="og:locale" content="nl_BE" />
+    <meta property="og:site_name" content="Thai Happy Massage" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="BE-VOV" />
+    <meta name="geo.placename" content="Aalst" />
+    <meta name="geo.position" content="50.9383;4.0392" />
+    <meta name="ICBM" content="50.9383, 4.0392" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- Beoordelingen Sectie -->
-  <section class="section testimonials" id="testimonials">
-    <div class="container">
-      <span class="section-subtitle" style="color: var(--secondary-color);">Ervaringen van Gasten</span>
-      <h2 class="section-title">Klantbeoordelingen</h2>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    
+    <script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "gold-primary": "#B8934E",
+                        "gold-dark": "#8B6D2F",
+                        "gold-light": "#E8D5B0",
+                        "thai-black": "#1A1510",
+                        "thai-brown": "#2C2416",
+                        "thai-cream": "#FCFAF8",
+                        "thai-beige": "#F3EFE9",
+                    },
+                    fontFamily: {
+                        "serif": ["Playfair Display", "serif"],
+                        "sans": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Base Styling & Material Icons */
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
 
-      <div class="slider-container">
-        <button class="slider-btn slider-btn-prev" onclick="prevSlide()" aria-label="Vorige Review">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
-        </button>
+        body {
+            background-color: #FCFAF8;
+            color: #2C2416;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Glassmorphism Utilities */
+        .glass-header {
+            background: rgba(252, 250, 248, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(184, 147, 78, 0.15);
+            transition: all 0.4s ease;
+        }
         
-        <div class="testimonials-slider">
-          <!-- Slide 1 -->
-          <div class="testimonial-slide active">
-            <span class="quote-icon">“</span>
-            <p class="testimonial-text">Absoluut de beste traditionele Thaise massage die ik in België heb gehad. De gecertificeerde therapeute vond precies waar de spanning zat en heeft deze verlicht. Zeer aanbevolen!</p>
-            <div class="rating-stars">
-              <!-- 5 Sterren -->
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-            </div>
-            <div class="author-name">Sarah Peeters</div>
-            <div class="author-title">Lokale Gids uit Aalst</div>
-          </div>
+        .glass-header.scrolled {
+            background: rgba(252, 250, 248, 0.95);
+            box-shadow: 0 10px 30px rgba(26, 21, 16, 0.05);
+            border-bottom: 1px solid rgba(184, 147, 78, 0.25);
+        }
 
-          <!-- Slide 2 -->
-          <div class="testimonial-slide">
-            <span class="quote-icon">“</span>
-            <p class="testimonial-text">De warme olie aromatherapie is hemels. De sfeer is zeer luxueus, kalm en ruikt heerlijk naar jasmijn en citroengras. Ik kom volgende week zeker terug.</p>
-            <div class="rating-stars">
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-            </div>
-            <div class="author-name">Dieter De Smet</div>
-            <div class="author-title">Inwoner van Aalst</div>
-          </div>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(184, 147, 78, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(184, 147, 78, 0.05);
+        }
 
-          <!-- Slide 3 -->
-          <div class="testimonial-slide">
-            <span class="quote-icon">“</span>
-            <p class="testimonial-text">Mijn partner en ik boekten het Couple Royal Pakket. Het was 2 uur pure zaligheid. Professioneel, schoon en uiterst ontspannend. Een echte aanrader voor iedereen!</p>
-            <div class="rating-stars">
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-            </div>
-            <div class="author-name">Annelies Verstraete</div>
-            <div class="author-title">Klant</div>
-          </div>
-        </div>
-
-        <button class="slider-btn slider-btn-next" onclick="nextSlide()" aria-label="Volgende Review">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg>
-        </button>
-      </div>
-
-      <div class="slider-dots" id="slider-dots">
-        <span class="dot active" onclick="goToSlide(0)"></span>
-        <span class="dot" onclick="goToSlide(1)"></span>
-        <span class="dot" onclick="goToSlide(2)"></span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Sectie (Geen Google Map) -->
-  <section class="section container" id="contact">
-    <div class="contact-grid">
-      <div class="contact-info">
-        <span class="section-subtitle">Bereik Ons</span>
-        <h3>Neem Contact Op</h3>
-        <p class="contact-info-desc">Wilt u een afspraak boeken of een vraag stellen? Neem contact met ons op via telefoon, e-mail of door het boekingsformulier in te vullen. We kijken ernaar uit u te verwelkomen.</p>
+        /* Gradients */
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(26, 21, 16, 0.95) 0%, rgba(44, 36, 22, 0.8) 50%, rgba(184, 147, 78, 0.4) 100%);
+        }
         
-        <div class="info-cards">
-          <!-- Locatie Kaart -->
-          <div class="info-card">
-            <div class="info-card-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-            </div>
-            <div class="info-card-details">
-              <h4>Locatie & Adres</h4>
-              <p>Geraardsbergsestraat 45,<br>9300 Aalst, België</p>
-            </div>
-          </div>
+        .text-gradient {
+            background: linear-gradient(to right, #B8934E, #8B6D2F);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-          <!-- Telefoon Kaart -->
-          <div class="info-card">
-            <div class="info-card-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-            </div>
-            <div class="info-card-details">
-              <h4>Telefoonnummer</h4>
-              <p>+32 (0) 489 123 456<br>+32 (0) 53 789 012</p>
-            </div>
-          </div>
+        /* Custom Hover Effects */
+        .hover-lift {
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(184, 147, 78, 0.15);
+        }
 
-          <!-- Openingstijden Kaart -->
-          <div class="info-card">
-            <div class="info-card-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-            </div>
-            <div class="info-card-details">
-              <h4>Openingstijden</h4>
-              <p>Maandag - Zaterdag: 10:00 - 20:00<br>Zondag: Alleen op afspraak</p>
-            </div>
-          </div>
-        </div>
-      </div>
+        .btn-primary {
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .btn-primary::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #1A1510;
+            z-index: -2;
+        }
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: #8B6D2F;
+            transition: all 0.4s ease;
+            z-index: -1;
+        }
+        .btn-primary:hover::before {
+            width: 100%;
+        }
+        
+        /* Interactive Nav Links */
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #B8934E;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
 
-      <div class="contact-form-container">
-        <form class="contact-form" id="direct-contact-form" onsubmit="handleContactSubmit(event)">
-          <h3>Stuur een Bericht</h3>
-          <div class="form-group">
-            <label for="c-name">Volledige Naam</label>
-            <input type="text" id="c-name" class="form-input" placeholder="Uw Naam" required>
-          </div>
-          <div class="form-group">
-            <label for="c-email">E-mailadres</label>
-            <input type="email" id="c-email" class="form-input" placeholder="naam@domein.com" required>
-          </div>
-          <div class="form-group">
-            <label for="c-message">Hoe kunnen we u helpen?</label>
-            <textarea id="c-message" class="form-input" placeholder="Vertel ons waar u naar op zoek bent..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" style="width: 100%;">Bericht Verzenden</button>
-        </form>
-        <div class="success-msg" id="contact-success">
-          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-          <h4>Bedankt!</h4>
-          <p>Uw bericht is succesvol verzonden. We nemen zo snel mogelijk contact met u op.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        /* Hide scrollbar for cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F3EFE9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #B8934E;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #8B6D2F;
+        }
+    </style>
+</head>
 
-  <!-- Boekings Modal -->
-  <div class="modal" id="booking-modal">
-    <div class="modal-content">
-      <button class="modal-close-btn" id="modal-close-btn" aria-label="Sluit modal">
-        <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-      </button>
+<body class="font-sans selection:bg-gold-primary/30 selection:text-thai-black bg-thai-cream text-thai-brown">
 
-      <div id="booking-form-wrapper">
-        <div class="modal-header">
-          <h3>Boekingsaanvraag</h3>
-          <p>Vul dit formulier in om een massagebehandeling aan te vragen. We bevestigen uw afspraak via telefoon of e-mail.</p>
-        </div>
-
-        <form class="modal-form" id="booking-form" onsubmit="handleBookingSubmit(event)">
-          <div class="form-group">
-            <label for="b-name">Uw Volledige Naam</label>
-            <input type="text" id="b-name" class="form-input" placeholder="Sarah Peeters" required>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="b-phone">Telefoonnummer</label>
-              <input type="tel" id="b-phone" class="form-input" placeholder="+32 489 12 34 56" required>
-            </div>
-            <div class="form-group">
-              <label for="b-email">E-mailadres</label>
-              <input type="email" id="b-email" class="form-input" placeholder="sarah@domein.com" required>
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="b-service">Behandeling</label>
-              <select id="b-service" class="form-input" required style="appearance: none; -webkit-appearance: none;">
-                <option value="" disabled selected>Selecteer een dienst</option>
-                <option value="Traditionele Thaise Massage">Traditionele Thaise Massage</option>
-                <option value="Aromatherapie Warme Olie">Aromatherapie Warme Olie</option>
-                <option value="Hot Stone Therapie">Hot Stone Therapie</option>
-                <option value="Thaise Kruidenstempel">Thaise Kruidenstempel</option>
-                <option value="Rug, Nek & Schouders">Rug, Nek & Schouders</option>
-                <option value="Deep Tissue Therapie">Deep Tissue Therapie</option>
-                <option value="Voetreflexologie">Voetreflexologie</option>
-                <option value="Couple Royal Pakket">Couple Royal Pakket</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="b-duration">Duur</label>
-              <select id="b-duration" class="form-input" required style="appearance: none; -webkit-appearance: none;">
-                <option value="" disabled selected>Selecteer de duur</option>
-                <option value="30 minuten">30 Minuten</option>
-                <option value="60 minuten">60 Minuten</option>
-                <option value="90 minuten">90 Minuten</option>
-                <option value="120 minuten">120 Minuten</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="b-date">Gewenste Datum</label>
-              <input type="date" id="b-date" class="form-input" required>
-            </div>
-            <div class="form-group">
-              <label for="b-time">Gewenst Tijdstip</label>
-              <input type="time" id="b-time" class="form-input" required>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="b-notes">Speciale Opmerkingen / Wensen</label>
-            <textarea id="b-notes" class="form-input" placeholder="Bijv. kamerkeuze, specifieke pijnpunten, allergieën..."></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-gold" style="width: 100%; margin-top: 1rem;">Boekingsaanvraag Verzenden</button>
-        </form>
-      </div>
-
-      <!-- Boeking succes bericht -->
-      <div class="success-msg" id="booking-success">
-        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-        <h4>Boekingsaanvraag Verzonden!</h4>
-        <p>Bedankt voor uw boeking. We hebben uw aanvraag ontvangen en nemen snel contact met u op om uw afspraak te bevestigen.</p>
-        <button class="btn btn-primary" onclick="closeModal()" style="margin-top: 2rem; padding: 0.75rem 2rem;">Sluiten</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Lightbox voor Galerij Zoom -->
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Sluit grote weergave">
-      <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-    </button>
-    <div class="lightbox-content" onclick="event.stopPropagation()">
-      <img src="" alt="Grote weergave" class="lightbox-img" id="lightbox-img">
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col footer-about">
-          <a href="#home" class="logo">
-            <h1 style="color: var(--secondary-color);">THAI HAPPY MASSAGE</h1>
-            <span>Aalst Wellness & Spa</span>
-          </a>
-          <p>Brengt authentieke Thaise helende therapieën en wellnesspraktijken naar Aalst. Voel u ontspannen, verjongd en gelukkig.</p>
-          <div class="social-links">
-            <a href="#" aria-label="Facebook">
-              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+    <!-- Header -->
+    <header id="navbar" class="fixed top-0 w-full z-[100] glass-header py-1">
+        <nav class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+            <a class="text-2xl md:text-3xl font-serif font-bold text-gradient tracking-widest hover:scale-105 transition-transform duration-300" href="#">
+                Thai Happy Massage
             </a>
-            <a href="#" aria-label="Instagram">
-              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <div class="hidden md:flex items-center space-x-10 text-xs font-bold tracking-[0.2em] uppercase text-thai-brown">
+                <a class="nav-link hover:text-gold-primary transition-colors" href="#probleem">Pijnverlichting</a>
+                <a class="nav-link hover:text-gold-primary transition-colors" href="#services">Behandelingen</a>
+                <a class="nav-link hover:text-gold-primary transition-colors" href="#reviews">Reviews</a>
+                <a class="nav-link hover:text-gold-primary transition-colors" href="#contact">Contact</a>
+            </div>
+            <a href="tel:+32489123456"
+                class="hidden md:flex bg-gold-primary text-white px-8 py-3 rounded-full font-extrabold text-sm tracking-wider uppercase hover:bg-thai-black transition-all transform active:scale-95 shadow-lg shadow-gold-primary/30 hover:shadow-thai-black/20">
+                BOEK NU
             </a>
-          </div>
-        </div>
-
-        <div class="footer-col">
-          <h4>Navigatie</h4>
-          <ul class="footer-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Over Ons</a></li>
-            <li><a href="#services">Onze Menu's</a></li>
-            <li><a href="#gallery">Spa Galerij</a></li>
-            <li><a href="#testimonials">Guest Reviews</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col footer-hours">
-          <h4>Openingstijden</h4>
-          <p>Maandag <span>10:00 - 20:00</span></p>
-          <p>Dinsdag <span>10:00 - 20:00</span></p>
-          <p>Woensdag <span>10:00 - 20:00</span></p>
-          <p>Donderdag <span>10:00 - 20:00</span></p>
-          <p>Vrijdag <span>10:00 - 20:00</span></p>
-          <p>Zaterdag <span>10:00 - 20:00</span></p>
-          <p>Zondag <span>Alleen op afspraak</span></p>
-        </div>
-
-        <div class="footer-col footer-newsletter">
-          <h4>Nieuwsbrief</h4>
-          <p>Meld u aan om nieuws, speciale seizoensaanbiedingen en wellnesstips te ontvangen.</p>
-          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Bedankt voor uw aanmelding!'); this.reset();">
-            <input type="email" class="newsletter-input" placeholder="Uw e-mailadres" required aria-label="E-mailadres">
-            <button type="submit" class="newsletter-btn" aria-label="Subscribe">
-              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            
+            <!-- Mobile Menu Icon (Simplified for pure CSS/HTML) -->
+            <button class="md:hidden text-gold-primary p-2">
+                <span class="material-symbols-outlined text-3xl">menu</span>
             </button>
-          </form>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img alt="Thaise Massage Aalst" class="w-full h-full object-cover scale-105 transform motion-safe:animate-[pulse_15s_ease-in-out_infinite_alternate]"
+                    src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1920&q=80" />
+                <div class="absolute inset-0 hero-gradient"></div>
+            </div>
+            
+            <!-- Decorative Elements -->
+            <div class="absolute top-1/4 left-10 w-64 h-64 bg-gold-primary/20 rounded-full blur-[100px] pointer-events-none animate-pulse-slow"></div>
+            <div class="absolute bottom-1/4 right-10 w-80 h-80 bg-gold-light/20 rounded-full blur-[120px] pointer-events-none animate-pulse-slow" style="animation-delay: 1s;"></div>
+
+            <div class="relative z-10 max-w-7xl mx-auto px-6 w-full grid md:grid-cols-2 gap-12 items-center">
+                <div class="max-w-2xl" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-gold-light text-xs font-bold tracking-widest uppercase mb-8">
+                        <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+                        Nu open in Aalst
+                    </div>
+                    <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white leading-[1.1] mb-6">
+                        Stop de pijn. <br />
+                        <span class="italic text-gold-primary font-normal text-gradient">Voel de rust.</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-white/80 mb-10 leading-relaxed font-light">
+                        Thaise acupressuurmassage combineert eeuwenoude technieken met specifieke drukpunten om uw zenuwstelsel te stimuleren en spierspanning te smelten. Ervaar diepe verlichting van kantoorsyndroom en rugklachten.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-5">
+                        <a href="tel:+32489123456"
+                            class="btn-primary text-white px-10 py-5 rounded-2xl font-black text-sm tracking-widest uppercase shadow-2xl shadow-gold-primary/30 hover:-translate-y-1 transition-transform text-center flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined text-lg">calendar_month</span>
+                            BOEK VANDAAG NOG
+                        </a>
+                        <a href="https://wa.me/32489123456"
+                            class="bg-white/5 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-2xl font-black text-sm tracking-widest uppercase hover:bg-white/15 transition-all text-center flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined text-lg">chat</span>
+                            CHAT DIRECT
+                        </a>
+                    </div>
+                    <p class="mt-8 text-sm text-gold-light/90 font-medium italic flex items-center gap-2">
+                        <span class="material-symbols-outlined text-gold-primary text-base">info</span>
+                        Beperkte plaatsen beschikbaar voor deze week!
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/50 animate-bounce">
+                <span class="text-[10px] tracking-[0.3em] uppercase font-bold">Ontdek</span>
+                <span class="material-symbols-outlined text-gold-primary">keyboard_arrow_down</span>
+            </div>
+        </section>
+
+        <!-- Problem/Solution Section -->
+        <section id="probleem" class="py-32 bg-thai-beige relative overflow-hidden">
+            <!-- Background Decorative Pattern -->
+            <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#B8934E 1px, transparent 1px); background-size: 32px 32px;"></div>
+            
+            <div class="max-w-7xl mx-auto px-6 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-20 items-center">
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <h2 class="text-4xl md:text-5xl font-serif font-bold mb-12 text-thai-black leading-tight">
+                            Waarom blijft u rondlopen met <span class="text-gold-primary italic">pijn?</span>
+                        </h2>
+                        
+                        <div class="space-y-6">
+                            <!-- Problem Card 1 -->
+                            <div class="glass-card p-6 rounded-2xl flex items-start gap-5 hover-lift">
+                                <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-outlined text-red-500 text-2xl">personal_injury</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-thai-black text-xl mb-2">Stijve Nek & Schouders</h4>
+                                    <p class="text-thai-brown/70 leading-relaxed">De constante spanning van schermwerk en stress zet zich vast in uw spieren. Ideaal voor wie veel tijd achter een computer doorbrengt.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Problem Card 2 -->
+                            <div class="glass-card p-6 rounded-2xl flex items-start gap-5 hover-lift">
+                                <div class="w-12 h-12 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-outlined text-orange-500 text-2xl">airline_seat_recline_extra</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-thai-black text-xl mb-2">Lage Rugklachten</h4>
+                                    <p class="text-thai-brown/70 leading-relaxed">Een zeurende, constante druk die uw dagelijkse bewegingsvrijheid belemmert en u 's nachts wakker houdt.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Problem Card 3 -->
+                            <div class="glass-card p-6 rounded-2xl flex items-start gap-5 hover-lift">
+                                <div class="w-12 h-12 rounded-full bg-yellow-50 flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-outlined text-yellow-600 text-2xl">psychology</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-thai-black text-xl mb-2">Chronische Stress</h4>
+                                    <p class="text-thai-brown/70 leading-relaxed">Mentale vermoeidheid die zich vertaalt in fysieke klachten. Vind totale rust in onze serene studio in Aalst.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Solution Box -->
+                    <div class="relative" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-gold-primary to-gold-light rounded-[40px] transform rotate-3 scale-105 opacity-20 blur-lg"></div>
+                        <div class="bg-white p-12 md:p-16 rounded-[40px] border border-gold-light/50 shadow-2xl shadow-gold-primary/10 relative overflow-hidden h-full">
+                            <div class="absolute -top-20 -right-20 w-64 h-64 bg-gold-primary/5 rounded-full blur-3xl"></div>
+                            
+                            <div class="inline-block bg-gold-primary/10 text-gold-dark px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-8">
+                                Onze Aanpak
+                            </div>
+                            <h3 class="text-4xl font-serif font-bold mb-6 text-thai-black">De Oplossing</h3>
+                            
+                            <p class="text-thai-brown/80 text-lg mb-10 leading-relaxed font-medium">
+                                Bij <span class="text-gold-primary font-bold">Thai Happy Massage</span> masseren we niet alleen de oppervlakte. Wij pakken de
+                                <strong class="text-thai-black">bron van de blokkades</strong> aan met krachtige, doelgerichte acupressuur.
+                            </p>
+                            
+                            <ul class="space-y-6 font-semibold text-thai-brown">
+                                <li class="flex items-start gap-4">
+                                    <div class="w-8 h-8 rounded-full bg-gold-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                                        <span class="material-symbols-outlined text-gold-dark text-sm">check</span>
+                                    </div>
+                                    <span class="text-lg">Directe, diepgaande verlichting van spierspanning en knopen.</span>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <div class="w-8 h-8 rounded-full bg-gold-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                                        <span class="material-symbols-outlined text-gold-dark text-sm">check</span>
+                                    </div>
+                                    <span class="text-lg">Herstel van de bloedsomloop en verbeterde orgaanbalans.</span>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <div class="w-8 h-8 rounded-full bg-gold-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                                        <span class="material-symbols-outlined text-gold-dark text-sm">check</span>
+                                    </div>
+                                    <span class="text-lg">Volledige mentale reset in een luxe, rustgevende omgeving.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-32 bg-thai-cream">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-20" data-aos="fade-up">
+                    <h2 class="text-4xl md:text-6xl font-serif font-bold text-thai-black mb-6">Onze Behandelingen</h2>
+                    <div class="w-24 h-1 bg-gold-primary mx-auto rounded-full mb-6"></div>
+                    <p class="text-thai-brown/60 max-w-2xl mx-auto text-lg">Authentieke therapieën, ontworpen om u te bevrijden van pijn en u terug te brengen naar uw natuurlijke staat van balans.</p>
+                </div>
+
+                <div class="max-w-3xl mx-auto" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="group bg-white rounded-[40px] border border-gold-light/30 shadow-2xl shadow-gold-primary/5 relative overflow-hidden transition-all duration-500 hover:shadow-gold-primary/15 hover:border-gold-primary/50">
+                        <!-- Glow effect on hover -->
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gold-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        
+                        <div class="relative h-80 md:h-96 w-full overflow-hidden">
+                            <img src="assets/thai_massage.png" alt="Thaise Massage"
+                                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1920&q=80'">
+                            <!-- Overlay gradient -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-thai-black/80 via-thai-black/20 to-transparent"></div>
+                            
+                            <div class="absolute bottom-8 left-8 right-8">
+                                <h3 class="text-3xl md:text-4xl font-serif font-bold text-white mb-2">Thaise Acupressuur Therapie</h3>
+                                <div class="flex items-center gap-4 text-gold-light font-medium">
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> 60 minuten</span>
+                                    <span class="w-1 h-1 rounded-full bg-gold-light"></span>
+                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">sell</span> €65</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="p-8 md:p-12 bg-white relative z-10 text-center">
+                            <p class="text-thai-brown/70 text-lg md:text-xl mb-10 leading-relaxed max-w-xl mx-auto">
+                                Ervaar de krachtige werking van onze traditionele behandeling. Bij alle diensten is een verzachtende, handmatige 'happy ending' inbegrepen ter ultieme ontspanning (geen naaktheid vereist).
+                            </p>
+                            
+                            <a href="tel:+32489123456"
+                                class="inline-flex items-center justify-center gap-3 w-full md:w-auto px-12 py-5 bg-thai-black text-gold-light rounded-2xl font-black text-lg tracking-widest uppercase hover:bg-gold-primary hover:text-white transition-colors duration-300 shadow-xl">
+                                RESERVEER NU
+                                <span class="material-symbols-outlined">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="py-32 bg-thai-black text-white relative overflow-hidden">
+            <!-- decorative background -->
+            <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-gold-primary/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3"></div>
+            
+            <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
+                <span class="text-gold-primary text-sm font-bold tracking-[0.3em] uppercase block mb-4">Gastenboek</span>
+                <h2 class="text-4xl md:text-6xl font-serif font-bold mb-20 italic">Wat Onze Klanten Zeggen</h2>
+                
+                <div class="relative">
+                    <span class="material-symbols-outlined absolute -top-10 left-1/2 -translate-x-1/2 text-7xl text-gold-primary/20">format_quote</span>
+                    
+                    <div class="bg-white/5 backdrop-blur-lg border border-white/10 p-10 md:p-16 rounded-[40px] max-w-3xl mx-auto hover-lift" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="flex justify-center text-gold-primary mb-8 gap-1">
+                            <span class="material-symbols-outlined text-3xl">star</span>
+                            <span class="material-symbols-outlined text-3xl">star</span>
+                            <span class="material-symbols-outlined text-3xl">star</span>
+                            <span class="material-symbols-outlined text-3xl">star</span>
+                            <span class="material-symbols-outlined text-3xl">star</span>
+                        </div>
+                        <p class="text-xl md:text-3xl font-serif leading-relaxed text-white/90 italic mb-10">
+                            "Eindelijk een werkelijk kwalitatieve Thaise massage in Aalst. De therapeute is uiterst professioneel, wist precies mijn pijnpunten te vinden en de studio is prachtig en rustgevend ingericht."
+                        </p>
+                        <div class="flex flex-col items-center">
+                            <div class="w-16 h-16 rounded-full bg-gold-primary/20 flex items-center justify-center mb-4 border border-gold-primary/50 text-gold-light text-xl font-bold">
+                                S
+                            </div>
+                            <p class="text-gold-light font-bold text-lg tracking-widest uppercase">Sophie L.</p>
+                            <p class="text-white/40 text-sm mt-1">Klant uit Aalst</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Location Section -->
+        <section id="contact" class="py-32 bg-thai-beige border-t border-gold-light/30 relative">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-20 items-center">
+                    <div data-aos="fade-right" data-aos-duration="1000">
+                        <div class="inline-block bg-gold-primary text-white px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6">
+                            Plan uw bezoek
+                        </div>
+                        <h2 class="text-5xl md:text-6xl font-serif font-bold text-thai-black mb-12 leading-tight">Onze Locatie <br/><span class="text-gold-primary italic">& Bereikbaarheid</span></h2>
+                        
+                        <div class="space-y-8">
+                            <div class="glass-card p-6 rounded-2xl flex gap-6 hover:border-gold-primary/50 transition-colors">
+                                <div class="w-14 h-14 rounded-full bg-gold-primary/10 flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-outlined text-gold-dark text-3xl">location_on</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-thai-black text-xl mb-2">Adres</h4>
+                                    <p class="text-thai-brown/70 text-lg">Geraardsbergsestraat 45<br/>9300 Aalst, België</p>
+                                </div>
+                            </div>
+                            
+                            <div class="glass-card p-6 rounded-2xl flex gap-6 hover:border-gold-primary/50 transition-colors">
+                                <div class="w-14 h-14 rounded-full bg-gold-primary/10 flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-outlined text-gold-dark text-3xl">schedule</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-thai-black text-xl mb-2">Openingsuren</h4>
+                                    <p class="text-thai-brown/70 text-lg flex justify-between w-48"><span>Maandag - Zaterdag:</span></p>
+                                    <p class="text-gold-dark font-bold text-lg">10:00 - 20:00</p>
+                                </div>
+                            </div>
+                            
+                            <div class="glass-card p-6 rounded-2xl flex gap-6 hover:border-gold-primary/50 transition-colors">
+                                <div class="w-14 h-14 rounded-full bg-gold-primary/10 flex items-center justify-center flex-shrink-0">
+                                    <span class="material-symbols-outlined text-gold-dark text-3xl">call</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-thai-black text-xl mb-2">Bel voor afspraak</h4>
+                                    <a href="tel:+32489123456" class="text-thai-black text-2xl font-black hover:text-gold-primary transition-colors block">
+                                        +32 (0) 489 123 456
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="relative h-[600px] rounded-[40px] overflow-hidden shadow-2xl border-8 border-white group" data-aos="fade-left" data-aos-duration="1000">
+                        <!-- Elegant map overlay to make standard maps look better -->
+                        <div class="absolute inset-0 bg-gold-primary/10 pointer-events-none z-10 mix-blend-multiply transition-opacity group-hover:opacity-0"></div>
+                        <iframe title="Locatie Thai Happy Massage op Google Maps"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80338.48418042457!2d3.9575195155982845!3d50.82229567673516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3b88b209e7de7%3A0x40099ab2f4d5160!2sAalst!5e0!3m2!1sen!2sth!4v1716100000000!5m2!1sen!2sth"
+                            width="100%" height="100%" style="border:0; filter: grayscale(30%) contrast(110%);" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="relative z-0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-32 bg-gold-primary relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+            <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+                <h2 class="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-thai-black mb-8 leading-tight">Wacht niet langer.</h2>
+                <p class="text-thai-black/80 text-xl md:text-2xl font-bold mb-14 uppercase tracking-[0.2em]">Reserveer uw herstel in Aalst.</p>
+                <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                    <a href="tel:+32489123456"
+                        class="bg-thai-black text-gold-light px-14 py-6 rounded-2xl font-black text-xl tracking-widest uppercase shadow-2xl hover:scale-105 transition-all text-center flex items-center justify-center gap-3">
+                        <span class="material-symbols-outlined">call</span>
+                        BEL DIRECT
+                    </a>
+                    <a href="https://wa.me/32489123456"
+                        class="bg-transparent border-2 border-thai-black text-thai-black px-14 py-6 rounded-2xl font-black text-xl tracking-widest uppercase hover:bg-thai-black hover:text-gold-light transition-all text-center flex items-center justify-center gap-3">
+                        <span class="material-symbols-outlined">chat</span>
+                        WHATSAPP ONS
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 bg-thai-black border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <a class="text-xl font-serif font-bold text-gold-primary tracking-widest" href="#">
+                Thai Happy Massage
+            </a>
+            <p class="text-white/30 text-xs tracking-[0.2em] uppercase text-center md:text-right">
+                &copy; 2026 Thai Happy Massage <br class="md:hidden"/> Geraardsbergsestraat 45, 9300 Aalst
+            </p>
         </div>
-      </div>
+    </footer>
 
-      <div class="footer-bottom">
-        <p>&copy; 2026 Thai Happy Massage in Aalst. Alle rechten voorbehouden.</p>
-        <p>Premium Wellness & Spa Ervaring</p>
-      </div>
+    <!-- Mobile Fixed Bottom Nav -->
+    <div class="fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-xl border-t border-gold-light/50 p-4 grid grid-cols-2 gap-4 md:hidden z-[200] pb-8 shadow-[0_-10px_40px_rgba(26,21,16,0.1)]">
+        <a href="https://wa.me/32489123456"
+            class="bg-thai-beige text-thai-black py-4 rounded-2xl font-black text-sm tracking-widest uppercase text-center border border-gold-light/50 flex items-center justify-center gap-2">
+            <span class="material-symbols-outlined text-lg">chat</span>
+            CHAT
+        </a>
+        <a href="tel:+32489123456" 
+            class="btn-primary text-white py-4 rounded-2xl font-black text-sm tracking-widest uppercase text-center flex items-center justify-center gap-2 shadow-lg shadow-gold-primary/20">
+            <span class="material-symbols-outlined text-lg">call</span>
+            BOEK NU
+        </a>
     </div>
-  </footer>
 
-  <script src="script.js"></script>
+    <!-- Scripts -->
+    <script>
+        // Initialize AOS animations
+        AOS.init({
+            once: true,
+            offset: 50,
+            duration: 800,
+            easing: 'ease-out-cubic',
+        });
+
+        // Glass Header Scroll Effect
+        const header = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled', 'py-2');
+                header.classList.remove('py-4');
+            } else {
+                header.classList.remove('scrolled', 'py-2');
+                header.classList.add('py-4');
+            }
+        });
+    </script>
 </body>
+
 </html>

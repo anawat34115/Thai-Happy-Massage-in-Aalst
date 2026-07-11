@@ -1,25 +1,25 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 /* CSS Variables */
 :root {
-  --primary-color: #2c1a11;          /* Dark rich bronze-brown */
-  --primary-hsl: 22, 44%, 12%;
-  --secondary-color: #c5a059;        /* Warm gold accent */
-  --secondary-hsl: 39, 49%, 56%;
-  --accent-color: #5c6e58;           /* Muted herbal green */
-  --bg-cream: #faf7f2;               /* Luxury soft cream */
-  --bg-white: #ffffff;
-  --text-dark: #3a2e2b;
-  --text-light: #ffffff;
-  --text-muted: #887a75;
-  --border-light: rgba(197, 160, 89, 0.2);
-  --border-medium: rgba(197, 160, 89, 0.4);
+  --primary-color: #2C2416;          /* thai-black */
+  --primary-hsl: 34, 33%, 12%;
+  --secondary-color: #B8934E;        /* gold-primary */
+  --secondary-hsl: 41, 45%, 51%;
+  --accent-color: #8B6D2F;           /* gold-dark */
+  --bg-cream: #FBF7F0;               /* thai-cream */
+  --bg-white: #FFFFFF;
+  --text-dark: #3B2F20;              /* thai-brown */
+  --text-light: #FFFFFF;
+  --text-muted: rgba(59, 47, 32, 0.6);
+  --border-light: rgba(184, 147, 78, 0.25); /* gold-primary with opacity */
+  --border-medium: rgba(184, 147, 78, 0.5);
   --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Montserrat', Helvetica, Arial, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', Helvetica, Arial, sans-serif;
   --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  --shadow-premium: 0 20px 40px rgba(44, 26, 17, 0.06);
-  --shadow-hover: 0 30px 60px rgba(44, 26, 17, 0.12);
+  --shadow-premium: 0 20px 40px rgba(44, 36, 22, 0.06);
+  --shadow-hover: 0 30px 60px rgba(44, 36, 22, 0.12);
 }
 
 /* Reset and Base Styles */
@@ -192,10 +192,10 @@ a {
 }
 
 .header.scrolled {
-  background-color: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(10px);
+  background: rgba(251, 247, 240, 0.92);
+  backdrop-filter: blur(12px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid rgba(184, 147, 78, 0.25);
   padding: 0.5rem 0;
 }
 
@@ -330,7 +330,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(44, 26, 17, 0.65), rgba(44, 26, 17, 0.45)), url('assets/hero_spa.png');
+  background-image: linear-gradient(to right, rgba(44, 36, 22, 0.92), rgba(44, 36, 22, 0.3)), url('assets/hero_spa.png');
   background-size: cover;
   background-position: center;
   z-index: -1;
