@@ -4,566 +4,368 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Thai Happy Massage | Verlicht Uw Pijn & Stress in Aalst</title>
+    <title>thai happy massage | Verlicht Uw Pijn & Stress</title>
     <meta name="description"
-        content="Authentieke Thaise massage in Aalst bij Thai Happy Massage. Verlicht rugpijn, nekpijn en stress met professionele Thaise therapie. Boek vandaag nog!" />
+        content="Authentieke Thaise massage in Aalst bij thai happy massage. Verlicht rugpijn, nekpijn en stress met professionele Thaise therapie in Aalst. Boek vandaag nog!" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://thaihappymassage.be" />
-    
-    <!-- Open Graph / SEO -->
-    <meta property="og:title" content="Thai Happy Massage | Verlicht Uw Pijn & Stress" />
-    <meta property="og:description" content="Authentieke Thaise massage in Aalst. Professionele therapie voor rugpijn, nekpijn en stressverlichting. Boek vandaag!" />
+    <link rel="canonical" href="https://kwanruan.be" />
+    <meta property="og:title" content="thai happy massage | Verlicht Uw Pijn & Stress" />
+    <meta property="og:description"
+        content="Authentieke Thaise massage in Aalst. Professionele therapie voor rugpijn, nekpijn en stressverlichting in Aalst. Boek vandaag!" />
     <meta property="og:type" content="business.business" />
-    <meta property="og:url" content="https://thaihappymassage.be" />
-    <meta property="og:image" content="https://thaihappymassage.be/og-image.jpg" />
+    <meta property="og:url" content="https://kwanruan.be" />
+    <meta property="og:image" content="https://kwanruan.be/og-image.jpg" />
     <meta property="og:locale" content="nl_BE" />
-    <meta property="og:site_name" content="Thai Happy Massage" />
+    <meta property="og:site_name" content="thai happy massage" />
     <meta name="twitter:card" content="summary_large_image" />
-    
-    <!-- Geo Tags -->
+    <meta name="twitter:title" content="thai happy massage | Verlicht Uw Pijn & Stress" />
+    <meta name="twitter:description"
+        content="Authentieke Thaise massage in Aalst. Professionele therapie voor rugpijn, nekpijn en stressverlichting in Aalst." />
+    <meta name="twitter:image" content="https://kwanruan.be/og-image.jpg" />
     <meta name="geo.region" content="BE-VOV" />
     <meta name="geo.placename" content="Aalst" />
     <meta name="geo.position" content="50.9383;4.0392" />
     <meta name="ICBM" content="50.9383, 4.0392" />
-    
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
     <script id="tailwind-config">
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        "gold-primary": "#B8934E",
-                        "gold-dark": "#8B6D2F",
-                        "gold-light": "#E8D5B0",
-                        "thai-black": "#1A1510",
-                        "thai-brown": "#2C2416",
-                        "thai-cream": "#FCFAF8",
-                        "thai-beige": "#F3EFE9",
+                        "gold-primary": "#D4AF37",
+                        "gold-dark": "#AA8000",
+                        "gold-light": "#F5E9C5",
+                        "thai-black": "#0A1128",
+                        "thai-brown": "#1C2541",
+                        "thai-cream": "#F4F6F9",
+                        "thai-beige": "#E2E8F0",
+                        "warm-white": "#FFFFFF"
                     },
                     fontFamily: {
                         "serif": ["Playfair Display", "serif"],
                         "sans": ["Plus Jakarta Sans", "sans-serif"]
-                    },
-                    animation: {
-                        'float': 'float 6s ease-in-out infinite',
-                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                    },
-                    keyframes: {
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-10px)' },
-                        }
                     }
                 }
             }
         }
     </script>
     <style>
-        /* Base Styling & Material Icons */
         .material-symbols-outlined {
-            font-variation-settings: 'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
         }
 
         body {
-            background-color: #FCFAF8;
-            color: #2C2416;
-            -webkit-font-smoothing: antialiased;
+            background-color: #F4F6F9;
+            color: #1C2541;
         }
 
-        /* Glassmorphism Utilities */
         .glass-header {
-            background: rgba(252, 250, 248, 0.85);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border-bottom: 1px solid rgba(184, 147, 78, 0.15);
-            transition: all 0.4s ease;
-        }
-        
-        .glass-header.scrolled {
-            background: rgba(252, 250, 248, 0.95);
-            box-shadow: 0 10px 30px rgba(26, 21, 16, 0.05);
-            border-bottom: 1px solid rgba(184, 147, 78, 0.25);
+            background: rgba(244, 246, 249, 0.92);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.25);
         }
 
-        .glass-card {
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(184, 147, 78, 0.2);
-            box-shadow: 0 8px 32px 0 rgba(184, 147, 78, 0.05);
-        }
-
-        /* Gradients */
         .hero-gradient {
-            background: linear-gradient(135deg, rgba(26, 21, 16, 0.95) 0%, rgba(44, 36, 22, 0.8) 50%, rgba(184, 147, 78, 0.4) 100%);
-        }
-        
-        .text-gradient {
-            background: linear-gradient(to right, #B8934E, #8B6D2F);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        /* Custom Hover Effects */
-        .hover-lift {
-            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
-        }
-        .hover-lift:hover {
-            transform: translateY(-8px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(184, 147, 78, 0.15);
-        }
-
-        .btn-primary {
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
-        }
-        .btn-primary::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #1A1510;
-            z-index: -2;
-        }
-        .btn-primary::before {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0%;
-            height: 100%;
-            background-color: #8B6D2F;
-            transition: all 0.4s ease;
-            z-index: -1;
-        }
-        .btn-primary:hover::before {
-            width: 100%;
-        }
-        
-        /* Interactive Nav Links */
-        .nav-link {
-            position: relative;
-        }
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: -4px;
-            left: 0;
-            background-color: #B8934E;
-            transition: width 0.3s ease;
-        }
-        .nav-link:hover::after {
-            width: 100%;
-        }
-
-        /* Hide scrollbar for cleaner look */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #F3EFE9;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #B8934E;
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #8B6D2F;
+            background: linear-gradient(to right, rgba(10, 17, 40, 0.92), rgba(10, 17, 40, 0.3));
         }
     </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "name": "thai happy massage",
+      "description": "Authentieke Thaise massage in Aalst. Professionele therapie voor rugpijn, nekpijn en stressverlichting.",
+      "url": "https://kwanruan.be",
+      "telephone": "+32472566229",
+      "image": "https://kwanruan.be/og-image.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Aalst",
+        "addressRegion": "Oost-Vlaanderen",
+        "postalCode": "9308",
+        "addressCountry": "BE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.9383,
+        "longitude": 4.0392
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      "priceRange": "€€",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "reviewCount": "1"
+      },
+      "review": {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Sophie L." },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+        "reviewBody": "Eindelijk een kwalitatieve Thaise massage in Aalst. Zeer professioneel en de studio is prachtig ingericht."
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Behandelingen",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Happy End Massage" }, "price": "65", "priceCurrency": "EUR" }
+        ]
+      }
+    }
+    </script>
 </head>
 
-<body class="font-sans selection:bg-gold-primary/30 selection:text-thai-black bg-thai-cream text-thai-brown">
+<body class="font-sans selection:bg-gold-primary/30 bg-thai-cream text-thai-brown">
 
-    <!-- Header -->
-    <header id="navbar" class="fixed top-0 w-full z-[100] glass-header py-1">
+    <header class="fixed top-0 w-full z-[100] glass-header">
         <nav class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
-            <a class="text-2xl md:text-3xl font-serif font-bold text-gradient tracking-widest hover:scale-105 transition-transform duration-300" href="#">
-                Thai Happy Massage
+            <a class="text-xl md:text-2xl font-serif font-bold text-gold-primary tracking-widest" href="#">
+                thai happy massage
             </a>
-            <div class="hidden md:flex items-center space-x-10 text-xs font-bold tracking-[0.2em] uppercase text-thai-brown">
-                <a class="nav-link hover:text-gold-primary transition-colors" href="#probleem">Pijnverlichting</a>
-                <a class="nav-link hover:text-gold-primary transition-colors" href="#services">Behandelingen</a>
-                <a class="nav-link hover:text-gold-primary transition-colors" href="#reviews">Reviews</a>
-                <a class="nav-link hover:text-gold-primary transition-colors" href="#contact">Contact</a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-bold tracking-widest uppercase">
+                <a class="text-thai-brown hover:text-gold-primary transition-colors"
+                    href="#probleem">Pijnverlichting</a>
+                <a class="text-thai-brown hover:text-gold-primary transition-colors" href="#services">Behandelingen</a>
+                <a class="text-thai-brown hover:text-gold-primary transition-colors" href="#reviews">Reviews</a>
+                <a class="text-thai-brown hover:text-gold-primary transition-colors" href="#contact">Contact</a>
             </div>
-            <a href="tel:+32489123456"
-                class="hidden md:flex bg-gold-primary text-white px-8 py-3 rounded-full font-extrabold text-sm tracking-wider uppercase hover:bg-thai-black transition-all transform active:scale-95 shadow-lg shadow-gold-primary/30 hover:shadow-thai-black/20">
+            <a href="tel:+32472566229"
+                class="bg-gold-primary text-white px-6 py-2 rounded-full font-extrabold hover:bg-thai-black hover:text-white transition-all transform active:scale-95">
                 BOEK NU
             </a>
-            
-            <!-- Mobile Menu Icon (Simplified for pure CSS/HTML) -->
-            <button class="md:hidden text-gold-primary p-2">
-                <span class="material-symbols-outlined text-3xl">menu</span>
-            </button>
         </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
             <div class="absolute inset-0 z-0">
-                <img alt="Thaise Massage Aalst" class="w-full h-full object-cover scale-105 transform motion-safe:animate-[pulse_15s_ease-in-out_infinite_alternate]"
+                <img alt="Thaise Massage Aalst" class="w-full h-full object-cover opacity-40"
                     src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1920&q=80" />
                 <div class="absolute inset-0 hero-gradient"></div>
             </div>
-            
-            <!-- Decorative Elements -->
-            <div class="absolute top-1/4 left-10 w-64 h-64 bg-gold-primary/20 rounded-full blur-[100px] pointer-events-none animate-pulse-slow"></div>
-            <div class="absolute bottom-1/4 right-10 w-80 h-80 bg-gold-light/20 rounded-full blur-[120px] pointer-events-none animate-pulse-slow" style="animation-delay: 1s;"></div>
-
             <div class="relative z-10 max-w-7xl mx-auto px-6 w-full grid md:grid-cols-2 gap-12 items-center">
-                <div class="max-w-2xl" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-gold-light text-xs font-bold tracking-widest uppercase mb-8">
-                        <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-                        Nu open in Aalst
-                    </div>
-                    <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white leading-[1.1] mb-6">
-                        Stop de pijn. <br />
-                        <span class="italic text-gold-primary font-normal text-gradient">Voel de rust.</span>
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl md:text-7xl font-serif font-bold text-white leading-tight mb-8">
+                        Stop Rug- en Nekpijn. <br /><span class="italic text-gold-primary font-normal">Voel de
+                            Verlichting.</span>
                     </h1>
-                    <p class="text-lg md:text-xl text-white/80 mb-10 leading-relaxed font-light">
-                        Thaise acupressuurmassage combineert eeuwenoude technieken met specifieke drukpunten om uw zenuwstelsel te stimuleren en spierspanning te smelten. Ervaar diepe verlichting van kantoorsyndroom en rugklachten.
+                    <p class="text-lg md:text-xl text-white/70 mb-10 leading-relaxed font-light">
+                        Thaise acupressuurmassage is een traditionele Thaise geneeskundige praktijk die
+                        basismassagetechnieken combineert met druk op specifieke drukpunten en energiebanen om het
+                        zenuwstelsel en de bloedsomloop te stimuleren. Dit helpt bij het verlichten van pijn, het
+                        ontspannen van spieren en het herstellen van het evenwicht in het lichaam. 📍 Belangrijkste
+                        voordelen van Thaise acupressuurmassage: Spierontspanning: Vermindert spierspanning en
+                        peesontstekingen. Stimulatie van de bloedsomloop: Verbetert de bloed- en lymfestroom.
+                        Orgaanbalans: Verlicht kantoorsyndroom, migraine en helpt de werking van verschillende
+                        lichaamssystemen te reguleren.
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-5">
-                        <a href="tel:+32489123456"
-                            class="btn-primary text-white px-10 py-5 rounded-2xl font-black text-sm tracking-widest uppercase shadow-2xl shadow-gold-primary/30 hover:-translate-y-1 transition-transform text-center flex items-center justify-center gap-2">
-                            <span class="material-symbols-outlined text-lg">calendar_month</span>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="tel:+32472566229"
+                            class="bg-gold-primary text-white px-10 py-5 rounded-xl font-black text-lg shadow-2xl shadow-gold-primary/20 hover:scale-105 transition-all text-center">
                             BOEK VANDAAG NOG
                         </a>
-                        <a href="https://wa.me/32489123456"
-                            class="bg-white/5 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-2xl font-black text-sm tracking-widest uppercase hover:bg-white/15 transition-all text-center flex items-center justify-center gap-2">
-                            <span class="material-symbols-outlined text-lg">chat</span>
+                        <a href="https://wa.me/32472566229"
+                            class="bg-white/5 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-white/10 transition-all text-center">
                             CHAT DIRECT
                         </a>
                     </div>
-                    <p class="mt-8 text-sm text-gold-light/90 font-medium italic flex items-center gap-2">
-                        <span class="material-symbols-outlined text-gold-primary text-base">info</span>
-                        Beperkte plaatsen beschikbaar voor deze week!
-                    </p>
+                    <p class="mt-6 text-sm text-gold-primary/80 font-bold italic animate-pulse"> Beperkte plaatsen
+                        beschikbaar voor deze week!</p>
                 </div>
-            </div>
-            
-            <!-- Scroll Indicator -->
-            <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/50 animate-bounce">
-                <span class="text-[10px] tracking-[0.3em] uppercase font-bold">Ontdek</span>
-                <span class="material-symbols-outlined text-gold-primary">keyboard_arrow_down</span>
             </div>
         </section>
 
-        <!-- Problem/Solution Section -->
-        <section id="probleem" class="py-32 bg-thai-beige relative overflow-hidden">
-            <!-- Background Decorative Pattern -->
-            <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#B8934E 1px, transparent 1px); background-size: 32px 32px;"></div>
-            
-            <div class="max-w-7xl mx-auto px-6 relative z-10">
-                <div class="grid lg:grid-cols-2 gap-20 items-center">
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <h2 class="text-4xl md:text-5xl font-serif font-bold mb-12 text-thai-black leading-tight">
-                            Waarom blijft u rondlopen met <span class="text-gold-primary italic">pijn?</span>
+        <section id="probleem" class="py-24 bg-thai-beige">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <div>
+                        <h2 class="text-4xl font-serif font-bold mb-8 text-thai-black">Waarom Blijft u Rondlopen met
+                            <span class="text-gold-primary italic">Pijn?</span>
                         </h2>
-                        
                         <div class="space-y-6">
-                            <!-- Problem Card 1 -->
-                            <div class="glass-card p-6 rounded-2xl flex items-start gap-5 hover-lift">
-                                <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center flex-shrink-0">
-                                    <span class="material-symbols-outlined text-red-500 text-2xl">personal_injury</span>
-                                </div>
+                            <!-- <div class="flex items-start gap-4">
+                                <span class="material-symbols-outlined text-red-500 text-3xl">report_problem</span>
                                 <div>
-                                    <h4 class="font-bold text-thai-black text-xl mb-2">Stijve Nek & Schouders</h4>
-                                    <p class="text-thai-brown/70 leading-relaxed">De constante spanning van schermwerk en stress zet zich vast in uw spieren. Ideaal voor wie veel tijd achter een computer doorbrengt.</p>
+                                    <h4 class="font-bold text-thai-black text-lg">Stijve Nek & Schouders</h4>
+                                    <p class="text-thai-brown/60">Ideaal voor wie veel tijd achter een computer
+                                        doorbrengt in de regio Aalst.</p>
+                                </div>
+                            </div> -->
+                            <div class="flex items-start gap-4">
+                                <span class="material-symbols-outlined text-red-500 text-3xl">report_problem</span>
+                                <div>
+                                    <h4 class="font-bold text-thai-black text-lg">Lage Rugklachten</h4>
+                                    <p class="text-thai-brown/60">Constante druk die uw dagelijkse bewegingsvrijheid
+                                        belemmert.</p>
                                 </div>
                             </div>
-                            
-                            <!-- Problem Card 2 -->
-                            <div class="glass-card p-6 rounded-2xl flex items-start gap-5 hover-lift">
-                                <div class="w-12 h-12 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
-                                    <span class="material-symbols-outlined text-orange-500 text-2xl">airline_seat_recline_extra</span>
-                                </div>
+                            <div class="flex items-start gap-4">
+                                <span class="material-symbols-outlined text-red-500 text-3xl">report_problem</span>
                                 <div>
-                                    <h4 class="font-bold text-thai-black text-xl mb-2">Lage Rugklachten</h4>
-                                    <p class="text-thai-brown/70 leading-relaxed">Een zeurende, constante druk die uw dagelijkse bewegingsvrijheid belemmert en u 's nachts wakker houdt.</p>
-                                </div>
-                            </div>
-                            
-                            <!-- Problem Card 3 -->
-                            <div class="glass-card p-6 rounded-2xl flex items-start gap-5 hover-lift">
-                                <div class="w-12 h-12 rounded-full bg-yellow-50 flex items-center justify-center flex-shrink-0">
-                                    <span class="material-symbols-outlined text-yellow-600 text-2xl">psychology</span>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-thai-black text-xl mb-2">Chronische Stress</h4>
-                                    <p class="text-thai-brown/70 leading-relaxed">Mentale vermoeidheid die zich vertaalt in fysieke klachten. Vind totale rust in onze serene studio in Aalst.</p>
+                                    <h4 class="font-bold text-thai-black text-lg">Chronische Stress</h4>
+                                    <p class="text-thai-brown/60">Vind totale rust in onze serene studio nabij het
+                                        Kasteel van Aalst.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Solution Box -->
-                    <div class="relative" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                        <div class="absolute inset-0 bg-gradient-to-tr from-gold-primary to-gold-light rounded-[40px] transform rotate-3 scale-105 opacity-20 blur-lg"></div>
-                        <div class="bg-white p-12 md:p-16 rounded-[40px] border border-gold-light/50 shadow-2xl shadow-gold-primary/10 relative overflow-hidden h-full">
-                            <div class="absolute -top-20 -right-20 w-64 h-64 bg-gold-primary/5 rounded-full blur-3xl"></div>
-                            
-                            <div class="inline-block bg-gold-primary/10 text-gold-dark px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-8">
-                                Onze Aanpak
-                            </div>
-                            <h3 class="text-4xl font-serif font-bold mb-6 text-thai-black">De Oplossing</h3>
-                            
-                            <p class="text-thai-brown/80 text-lg mb-10 leading-relaxed font-medium">
-                                Bij <span class="text-gold-primary font-bold">Thai Happy Massage</span> masseren we niet alleen de oppervlakte. Wij pakken de
-                                <strong class="text-thai-black">bron van de blokkades</strong> aan met krachtige, doelgerichte acupressuur.
-                            </p>
-                            
-                            <ul class="space-y-6 font-semibold text-thai-brown">
-                                <li class="flex items-start gap-4">
-                                    <div class="w-8 h-8 rounded-full bg-gold-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="material-symbols-outlined text-gold-dark text-sm">check</span>
-                                    </div>
-                                    <span class="text-lg">Directe, diepgaande verlichting van spierspanning en knopen.</span>
-                                </li>
-                                <li class="flex items-start gap-4">
-                                    <div class="w-8 h-8 rounded-full bg-gold-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="material-symbols-outlined text-gold-dark text-sm">check</span>
-                                    </div>
-                                    <span class="text-lg">Herstel van de bloedsomloop en verbeterde orgaanbalans.</span>
-                                </li>
-                                <li class="flex items-start gap-4">
-                                    <div class="w-8 h-8 rounded-full bg-gold-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="material-symbols-outlined text-gold-dark text-sm">check</span>
-                                    </div>
-                                    <span class="text-lg">Volledige mentale reset in een luxe, rustgevende omgeving.</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section id="services" class="py-32 bg-thai-cream">
-            <div class="max-w-7xl mx-auto px-6">
-                <div class="text-center mb-20" data-aos="fade-up">
-                    <h2 class="text-4xl md:text-6xl font-serif font-bold text-thai-black mb-6">Onze Behandelingen</h2>
-                    <div class="w-24 h-1 bg-gold-primary mx-auto rounded-full mb-6"></div>
-                    <p class="text-thai-brown/60 max-w-2xl mx-auto text-lg">Authentieke therapieën, ontworpen om u te bevrijden van pijn en u terug te brengen naar uw natuurlijke staat van balans.</p>
-                </div>
-
-                <div class="max-w-3xl mx-auto" data-aos="zoom-in" data-aos-duration="1000">
-                    <div class="group bg-white rounded-[40px] border border-gold-light/30 shadow-2xl shadow-gold-primary/5 relative overflow-hidden transition-all duration-500 hover:shadow-gold-primary/15 hover:border-gold-primary/50">
-                        <!-- Glow effect on hover -->
-                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gold-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                        
-                        <div class="relative h-80 md:h-96 w-full overflow-hidden">
-                            <img src="assets/thai_massage.png" alt="Thaise Massage"
-                                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1920&q=80'">
-                            <!-- Overlay gradient -->
-                            <div class="absolute inset-0 bg-gradient-to-t from-thai-black/80 via-thai-black/20 to-transparent"></div>
-                            
-                            <div class="absolute bottom-8 left-8 right-8">
-                                <h3 class="text-3xl md:text-4xl font-serif font-bold text-white mb-2">Thaise Acupressuur Therapie</h3>
-                                <div class="flex items-center gap-4 text-gold-light font-medium">
-                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> 60 minuten</span>
-                                    <span class="w-1 h-1 rounded-full bg-gold-light"></span>
-                                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">sell</span> €65</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="p-8 md:p-12 bg-white relative z-10 text-center">
-                            <p class="text-thai-brown/70 text-lg md:text-xl mb-10 leading-relaxed max-w-xl mx-auto">
-                                Ervaar de krachtige werking van onze traditionele behandeling. Bij alle diensten is een verzachtende, handmatige 'happy ending' inbegrepen ter ultieme ontspanning (geen naaktheid vereist).
-                            </p>
-                            
-                            <a href="tel:+32489123456"
-                                class="inline-flex items-center justify-center gap-3 w-full md:w-auto px-12 py-5 bg-thai-black text-gold-light rounded-2xl font-black text-lg tracking-widest uppercase hover:bg-gold-primary hover:text-white transition-colors duration-300 shadow-xl">
-                                RESERVEER NU
-                                <span class="material-symbols-outlined">arrow_forward</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Reviews Section -->
-        <section id="reviews" class="py-32 bg-thai-black text-white relative overflow-hidden">
-            <!-- decorative background -->
-            <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-gold-primary/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3"></div>
-            
-            <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
-                <span class="text-gold-primary text-sm font-bold tracking-[0.3em] uppercase block mb-4">Gastenboek</span>
-                <h2 class="text-4xl md:text-6xl font-serif font-bold mb-20 italic">Wat Onze Klanten Zeggen</h2>
-                
-                <div class="relative">
-                    <span class="material-symbols-outlined absolute -top-10 left-1/2 -translate-x-1/2 text-7xl text-gold-primary/20">format_quote</span>
-                    
-                    <div class="bg-white/5 backdrop-blur-lg border border-white/10 p-10 md:p-16 rounded-[40px] max-w-3xl mx-auto hover-lift" data-aos="zoom-in" data-aos-duration="800">
-                        <div class="flex justify-center text-gold-primary mb-8 gap-1">
-                            <span class="material-symbols-outlined text-3xl">star</span>
-                            <span class="material-symbols-outlined text-3xl">star</span>
-                            <span class="material-symbols-outlined text-3xl">star</span>
-                            <span class="material-symbols-outlined text-3xl">star</span>
-                            <span class="material-symbols-outlined text-3xl">star</span>
-                        </div>
-                        <p class="text-xl md:text-3xl font-serif leading-relaxed text-white/90 italic mb-10">
-                            "Eindelijk een werkelijk kwalitatieve Thaise massage in Aalst. De therapeute is uiterst professioneel, wist precies mijn pijnpunten te vinden en de studio is prachtig en rustgevend ingericht."
+                    <div
+                        class="bg-white p-10 rounded-3xl border border-gold-light shadow-xl shadow-gold-primary/5 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-gold-primary/10 rounded-full blur-3xl"></div>
+                        <h3 class="text-3xl font-serif font-bold mb-6 text-gold-primary">De Oplossing</h3>
+                        <p class="text-thai-brown/80 text-lg mb-8 leading-relaxed">
+                            Bij <strong>thai happy massage</strong> masseren we niet alleen de oppervlakte. Wij pakken de
+                            <strong>bron van de blokkades</strong> aan met krachtige, doelgerichte technieken.
                         </p>
-                        <div class="flex flex-col items-center">
-                            <div class="w-16 h-16 rounded-full bg-gold-primary/20 flex items-center justify-center mb-4 border border-gold-primary/50 text-gold-light text-xl font-bold">
-                                S
-                            </div>
-                            <p class="text-gold-light font-bold text-lg tracking-widest uppercase">Sophie L.</p>
-                            <p class="text-white/40 text-sm mt-1">Klant uit Aalst</p>
-                        </div>
+                        <ul class="space-y-4 font-bold text-thai-black">
+                            <li class="flex items-center gap-3"><span class="text-gold-primary">✔</span> Directe
+                                verlichting van spierspanning</li>
+                            <li class="flex items-center gap-3"><span class="text-gold-primary">✔</span> Diepe mentale
+                                en fysieke ontspanning</li>
+                            <li class="flex items-center gap-3"><span class="text-gold-primary">✔</span> Verbeterde
+                                flexibiliteit en houding</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact & Location Section -->
-        <section id="contact" class="py-32 bg-thai-beige border-t border-gold-light/30 relative">
+        <section id="services" class="py-24 bg-thai-cream">
             <div class="max-w-7xl mx-auto px-6">
-                <div class="grid lg:grid-cols-2 gap-20 items-center">
-                    <div data-aos="fade-right" data-aos-duration="1000">
-                        <div class="inline-block bg-gold-primary text-white px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6">
-                            Plan uw bezoek
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-serif font-bold text-thai-black mb-4">Onze Behandelingen</h2>
+                    <p class="text-thai-brown/50 max-w-xl mx-auto italic">Onze studio in Aalst biedt de hoogste
+                        kwaliteit Thaise therapie.</p>
+                </div>
+
+                <div class="max-w-2xl mx-auto">
+                    <div
+                        class="bg-white p-12 rounded-3xl border border-gold-primary/50 shadow-2xl shadow-gold-primary/10 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-40 h-40 bg-gold-primary/10 rounded-full blur-3xl"></div>
+                        <img src="assets/060122c1-f19d-4d17-b034-f9673a80d209.jpg" alt="Massage by Me - Thaise Massage"
+                            class="w-full h-auto rounded-2xl mb-8 shadow-lg">
+                        <div class="text-center">
+                            <h3 class="text-3xl font-serif font-bold text-gold-primary mb-6">Massage Happy end</h3>
+                            <p class="text-thai-brown/60 text-lg mb-8 leading-relaxed">Bij alle diensten is een
+                                handmatige 'happy ending' inbegrepen (zonder naaktheid). De prijs voor 60 minuten
+                                bedraagt €65.</p>
+                            <div class="flex flex-col items-center gap-3 mb-8">
+                                <div class="text-3xl font-black text-thai-black">60 minuten — €65</div>
+                                <!-- <div class="text-3xl font-black text-thai-black">30 min — €60</div> -->
+                            </div>
+                            <a href="tel:+32472566229"
+                                class="block w-full py-4 bg-gold-primary text-white rounded-2xl font-black text-xl hover:bg-thai-black transition-all shadow-lg">BOEK
+                                NU</a>
                         </div>
-                        <h2 class="text-5xl md:text-6xl font-serif font-bold text-thai-black mb-12 leading-tight">Onze Locatie <br/><span class="text-gold-primary italic">& Bereikbaarheid</span></h2>
-                        
-                        <div class="space-y-8">
-                            <div class="glass-card p-6 rounded-2xl flex gap-6 hover:border-gold-primary/50 transition-colors">
-                                <div class="w-14 h-14 rounded-full bg-gold-primary/10 flex items-center justify-center flex-shrink-0">
-                                    <span class="material-symbols-outlined text-gold-dark text-3xl">location_on</span>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-thai-black text-xl mb-2">Adres</h4>
-                                    <p class="text-thai-brown/70 text-lg">Geraardsbergsestraat 45<br/>9300 Aalst, België</p>
-                                </div>
-                            </div>
-                            
-                            <div class="glass-card p-6 rounded-2xl flex gap-6 hover:border-gold-primary/50 transition-colors">
-                                <div class="w-14 h-14 rounded-full bg-gold-primary/10 flex items-center justify-center flex-shrink-0">
-                                    <span class="material-symbols-outlined text-gold-dark text-3xl">schedule</span>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-thai-black text-xl mb-2">Openingsuren</h4>
-                                    <p class="text-thai-brown/70 text-lg flex justify-between w-48"><span>Maandag - Zaterdag:</span></p>
-                                    <p class="text-gold-dark font-bold text-lg">10:00 - 20:00</p>
-                                </div>
-                            </div>
-                            
-                            <div class="glass-card p-6 rounded-2xl flex gap-6 hover:border-gold-primary/50 transition-colors">
-                                <div class="w-14 h-14 rounded-full bg-gold-primary/10 flex items-center justify-center flex-shrink-0">
-                                    <span class="material-symbols-outlined text-gold-dark text-3xl">call</span>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-thai-black text-xl mb-2">Bel voor afspraak</h4>
-                                    <a href="tel:+32489123456" class="text-thai-black text-2xl font-black hover:text-gold-primary transition-colors block">
-                                        +32 (0) 489 123 456
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="relative h-[600px] rounded-[40px] overflow-hidden shadow-2xl border-8 border-white group" data-aos="fade-left" data-aos-duration="1000">
-                        <!-- Elegant map overlay to make standard maps look better -->
-                        <div class="absolute inset-0 bg-gold-primary/10 pointer-events-none z-10 mix-blend-multiply transition-opacity group-hover:opacity-0"></div>
-                        <iframe title="Locatie Thai Happy Massage op Google Maps"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80338.48418042457!2d3.9575195155982845!3d50.82229567673516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3b88b209e7de7%3A0x40099ab2f4d5160!2sAalst!5e0!3m2!1sen!2sth!4v1716100000000!5m2!1sen!2sth"
-                            width="100%" height="100%" style="border:0; filter: grayscale(30%) contrast(110%);" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade" class="relative z-0"></iframe>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="py-32 bg-gold-primary relative overflow-hidden">
-            <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-            <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
-                <h2 class="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-thai-black mb-8 leading-tight">Wacht niet langer.</h2>
-                <p class="text-thai-black/80 text-xl md:text-2xl font-bold mb-14 uppercase tracking-[0.2em]">Reserveer uw herstel in Aalst.</p>
+        <section id="reviews" class="py-24 bg-thai-beige">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <h2 class="text-4xl font-serif font-bold text-thai-black mb-16 italic">Reviews van Klanten in Aalst
+                </h2>
+                <div class="space-y-8 text-left">
+                    <div class="bg-white p-8 rounded-2xl border border-gold-light/50 shadow-md">
+                        <div class="flex text-gold-primary mb-4"><span
+                                class="material-symbols-outlined">star</span><span
+                                class="material-symbols-outlined">star</span><span
+                                class="material-symbols-outlined">star</span><span
+                                class="material-symbols-outlined">star</span><span
+                                class="material-symbols-outlined">star</span></div>
+                        <p class="text-thai-brown/80 italic mb-4">"Eindelijk een kwalitatieve Thaise massage in
+                            Aalst. Zeer professioneel en de studio is prachtig ingericht."</p>
+                        <p class="text-gold-primary font-bold">— Sophie L., Aalst</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact" class="py-24 bg-thai-cream border-t border-gold-light/30">
+            <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+                <div>
+                    <h2 class="text-5xl font-serif font-bold text-thai-black mb-10 tracking-tight">Onze Locatie</h2>
+                    <div class="space-y-10">
+                        <div class="flex gap-6">
+                            <span class="material-symbols-outlined text-gold-primary text-3xl">location_on</span>
+                            <div>
+                                <h4 class="font-bold text-thai-black text-xl mb-1">Adres</h4>
+                                <p class="text-thai-brown/60 italic font-medium">Aalst</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <span class="material-symbols-outlined text-gold-primary text-3xl">schedule</span>
+                            <div>
+                                <h4 class="font-bold text-thai-black text-xl mb-1">Openingsuren</h4>
+                                <p class="text-thai-brown/60">Maandag tot en met zondag<br>10.00 tot 18.00 uur</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <span class="material-symbols-outlined text-gold-primary text-3xl">call</span>
+                            <div>
+                                <h4 class="font-bold text-thai-black text-xl mb-1">Telefoon</h4>
+                                <a href="tel:+32472566229"
+                                    class="text-thai-black text-2xl font-black hover:text-gold-primary transition-colors">0472 56 62 29</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-[500px] rounded-3xl overflow-hidden shadow-xl border border-gold-light">
+                    <iframe title="Locatie thai happy massage op Google Maps"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80338.48418042457!2d3.9575195155982845!3d50.82229567673516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bb37a6bcaed3%3A0x40099ab2f4d5b20!2sAalst!5e0!3m2!1sen!2sth!4v1716100000000!5m2!1sen!2sth"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="absolute inset-0 pointer-events-none border-[12px] border-thai-cream/50 rounded-3xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-32 bg-gold-primary text-center">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-5xl md:text-7xl font-serif font-bold text-thai-black mb-8 italic">Wacht niet langer.
+                </h2>
+                <p class="text-thai-black/70 text-xl font-bold mb-12 uppercase tracking-widest">Reserveer uw herstel in
+                    Aalst.</p>
                 <div class="flex flex-col sm:flex-row gap-6 justify-center">
-                    <a href="tel:+32489123456"
-                        class="bg-thai-black text-gold-light px-14 py-6 rounded-2xl font-black text-xl tracking-widest uppercase shadow-2xl hover:scale-105 transition-all text-center flex items-center justify-center gap-3">
-                        <span class="material-symbols-outlined">call</span>
-                        BEL DIRECT
-                    </a>
-                    <a href="https://wa.me/32489123456"
-                        class="bg-transparent border-2 border-thai-black text-thai-black px-14 py-6 rounded-2xl font-black text-xl tracking-widest uppercase hover:bg-thai-black hover:text-gold-light transition-all text-center flex items-center justify-center gap-3">
-                        <span class="material-symbols-outlined">chat</span>
-                        WHATSAPP ONS
-                    </a>
+                    <a href="tel:+32472566229"
+                        class="bg-thai-black text-white px-12 py-6 rounded-2xl font-black text-2xl shadow-2xl hover:scale-105 transition-all text-center flex items-center justify-center">BOEK
+                        NU</a>
+                    <a href="tel:+32472566229"
+                        class="bg-transparent border-2 border-thai-black text-thai-black px-12 py-6 rounded-2xl font-black text-2xl hover:bg-thai-black hover:text-white transition-all text-center flex items-center justify-center">BEL
+                        DIRECT</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="py-12 bg-thai-black border-t border-white/5">
-        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-            <a class="text-xl font-serif font-bold text-gold-primary tracking-widest" href="#">
-                Thai Happy Massage
-            </a>
-            <p class="text-white/30 text-xs tracking-[0.2em] uppercase text-center md:text-right">
-                &copy; 2026 Thai Happy Massage <br class="md:hidden"/> Geraardsbergsestraat 45, 9300 Aalst
-            </p>
-        </div>
+    <footer class="py-10 text-center bg-thai-black">
+        <p class="text-white/40 text-[10px] tracking-[0.3em] uppercase">
+            2026 thai happy massage | 9308 Aalst
+        </p>
     </footer>
 
-    <!-- Mobile Fixed Bottom Nav -->
-    <div class="fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-xl border-t border-gold-light/50 p-4 grid grid-cols-2 gap-4 md:hidden z-[200] pb-8 shadow-[0_-10px_40px_rgba(26,21,16,0.1)]">
-        <a href="https://wa.me/32489123456"
-            class="bg-thai-beige text-thai-black py-4 rounded-2xl font-black text-sm tracking-widest uppercase text-center border border-gold-light/50 flex items-center justify-center gap-2">
-            <span class="material-symbols-outlined text-lg">chat</span>
-            CHAT
-        </a>
-        <a href="tel:+32489123456" 
-            class="btn-primary text-white py-4 rounded-2xl font-black text-sm tracking-widest uppercase text-center flex items-center justify-center gap-2 shadow-lg shadow-gold-primary/20">
-            <span class="material-symbols-outlined text-lg">call</span>
-            BOEK NU
-        </a>
+    <div
+        class="fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-md border-t border-gold-light p-4 grid grid-cols-2 gap-4 md:hidden z-[200] shadow-[0_-4px_20px_rgba(0,0,0,0.08)]">
+        <a href="tel:+32472566229"
+            class="bg-thai-beige text-thai-black py-4 rounded-xl font-black text-center border border-gold-light">BEL</a>
+        <a href="tel:+32472566229" class="bg-gold-primary text-white py-4 rounded-xl font-black text-center">BOEK NU</a>
     </div>
 
-    <!-- Scripts -->
-    <script>
-        // Initialize AOS animations
-        AOS.init({
-            once: true,
-            offset: 50,
-            duration: 800,
-            easing: 'ease-out-cubic',
-        });
-
-        // Glass Header Scroll Effect
-        const header = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled', 'py-2');
-                header.classList.remove('py-4');
-            } else {
-                header.classList.remove('scrolled', 'py-2');
-                header.classList.add('py-4');
-            }
-        });
-    </script>
 </body>
 
 </html>
